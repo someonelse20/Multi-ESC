@@ -36,6 +36,10 @@ I then copied this over to kicad.
 
 # October 13: Wired MCU
 
-Next I went to routing the mcu for the driver. After looking over the datasheet the mcu needs a separate 1.8v digital supply so I added a simple ldo regulator.
+Next I went to routing the mcu for the driver. After looking over the datasheet the mcu needs a separate 1.8v digital supply so I added a simple ldo regulator. The analog voltage will still be 3.3v because the mcu supports that and because I will be measuring high voltage which will be steped down and the lower the max voltage the less accurate it is. I opened up STM32CubeMX to get the pinout and tried a few times to get everything I need. It was a bit tricky because the mcu doesn't have many pins and I need a lot of different functions. After a few tries I managed to get everything I wanted. At first I wasn't sure if I should add SPI for the gate driver because I thought I wouldn't have enough pins and I might need a level shifter. After checking the gate driver datasheet it does support 1.8v digital supply so I chose to add in the SPI.
+
+![STM32CubeMX pinout](images/mcu_pinout-1.png)
+
+![MCU circuit](images/mcu_circuit-1.png)
 
 **Total time spent: 2 hours**
