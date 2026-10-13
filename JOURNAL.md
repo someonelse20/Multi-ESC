@@ -33,3 +33,9 @@ I then copied this over to kicad.
 ![Regulator circuit](images/reg_circuit-1.png)
 
 **Total time spent: 1 hours**
+
+# October 13: Wired MCU
+
+Next I went to routing the mcu for the driver. After looking over the datasheet the mcu needs a separate 1.8v digital supply so I added a simple ldo regulator.
+
+**Total time spent: 2 hours**
