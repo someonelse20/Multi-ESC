@@ -1956,6 +1956,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 64.77 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "618cdcde-71ad-4fff-a6d3-0d1545d865d8")
 		)
@@ -2027,6 +2038,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 78.74 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 78.74 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -2195,6 +2217,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 106.68 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "661bc88e-0b14-44cc-9328-3c34c267cd32")
 		)
@@ -2266,6 +2299,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 124.46 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 124.46 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -2434,6 +2478,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 124.46 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "013b829d-2428-4cb7-882f-fbfe5ea63a7c")
 		)
@@ -2582,6 +2637,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 34.29 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 34.29 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -2750,6 +2816,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 69.85 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "30eb81f0-85f7-4a1e-a462-992ab639f99b")
 		)
@@ -2821,6 +2898,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 147.32 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 147.32 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -2990,6 +3078,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 91.44 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "12"
 			(uuid "a75d8a9f-c21b-4909-9ce1-93a80fe118b9")
 		)
@@ -3094,6 +3193,17 @@
 		)
 		(property "Description" "Inductor"
 			(at 116.84 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 116.84 165.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3492,6 +3602,17 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 54.61 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e20803e9-69dc-4eae-90e3-b4d1d2fea889")
 		)
@@ -3563,6 +3684,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 44.45 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 44.45 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -3799,6 +3931,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 135.89 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 135.89 170.18 0)
 			(hide yes)
 			(show_name no)
