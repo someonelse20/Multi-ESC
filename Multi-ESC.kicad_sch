@@ -3710,8 +3710,8 @@
 		)
 	)
 	(sheet
-		(at 194.31 44.45)
-		(size 25.4 15.24)
+		(at 167.64 42.545)
+		(size 42.545 34.925)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3726,7 +3726,7 @@
 		)
 		(uuid "b7298b97-ad7a-472d-b821-c393573fc3f1")
 		(property "Sheetname" "BLDC Driver"
-			(at 194.31 43.7384 0)
+			(at 167.64 41.8334 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3737,7 +3737,7 @@
 			)
 		)
 		(property "Sheetfile" "bldc_driver.kicad_sch"
-			(at 194.31 60.2746 0)
+			(at 167.64 78.0546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

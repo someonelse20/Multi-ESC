@@ -5,6 +5,161 @@
 	(uuid "6a97a65a-e6a7-4a61-96af-e09f373718f6")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_ST_STM32F3:STM32F318K8Ux"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2028,7 +2183,7 @@
 	)
 	(symbol
 		(lib_id "Multi-ESC:DRV8311S")
-		(at 194.31 62.23 0)
+		(at 194.31 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2039,7 +2194,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d64e189-84cd-46a4-9bde-21068bb2a580")
 		(property "Reference" "U2"
-			(at 197.7233 39.37 0)
+			(at 197.7233 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2050,7 +2205,7 @@
 			)
 		)
 		(property "Value" "DRV8311S"
-			(at 197.7233 41.91 0)
+			(at 197.7233 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2061,7 +2216,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:WQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm"
-			(at 194.31 97.79 0)
+			(at 194.31 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2072,7 +2227,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fdrv8320"
-			(at 194.31 95.25 0)
+			(at 194.31 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2083,7 +2238,7 @@
 			)
 		)
 		(property "Description" "Three-Phase PWM Motor Driver, 3-20V supply, 5A peak current, SPI interface, WQFN-24"
-			(at 194.31 92.71 0)
+			(at 194.31 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2094,7 +2249,7 @@
 			)
 		)
 		(property private "KLC_S4.4_AVDD" "This is the output of the 3.3V internal regulator"
-			(at 194.31 100.33 0)
+			(at 194.31 105.41 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -2299,7 +2454,7 @@
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32F3:STM32F318K8Ux")
-		(at 114.3 67.31 0)
+		(at 114.3 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2310,7 +2465,7 @@
 		(fields_autoplaced yes)
 		(uuid "7456d474-0df6-4ad3-91de-72f311e6438f")
 		(property "Reference" "U1"
-			(at 118.9833 92.71 0)
+			(at 118.9833 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2321,7 +2476,7 @@
 			)
 		)
 		(property "Value" "STM32F318K8Ux"
-			(at 118.9833 95.25 0)
+			(at 118.9833 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2332,7 +2487,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
-			(at 101.6 90.17 0)
+			(at 101.6 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2344,7 +2499,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f318k8.pdf"
-			(at 114.3 67.31 0)
+			(at 114.3 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2355,7 +2510,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 64KB flash, 16KB RAM, 72 MHz, 1.65-1.95V, 23 GPIO, UFQFPN32"
-			(at 114.3 67.31 0)
+			(at 114.3 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2553,6 +2708,87 @@
 			(project "Multi-ESC"
 				(path "/332a84c1-656a-45ff-900c-4414e0318fba/b7298b97-ad7a-472d-b821-c393573fc3f1"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 102.87 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9cd7b131-ce88-47bc-bdf0-b0b678d8fd1b")
+		(property "Reference" "C8"
+			(at 104.14 30.734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 104.14 35.814 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 103.8352 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 102.87 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba9a5548-8ac4-49de-a1d6-e75055c1c87e")
+		)
+		(pin "2"
+			(uuid "a4b3c816-7c54-453d-9b82-57bbb9b9b8dc")
+		)
+		(instances
+			(project "Multi-ESC"
+				(path "/332a84c1-656a-45ff-900c-4414e0318fba/b7298b97-ad7a-472d-b821-c393573fc3f1"
+					(reference "C8")
 					(unit 1)
 				)
 			)
