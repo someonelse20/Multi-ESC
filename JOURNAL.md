@@ -21,3 +21,15 @@ I then chose a mosfet for the actual gates. I found the DI030N10PT-AQ on digikey
 ![initial esc schematic](images/schematic-1.png)
 
 **Total time spent: 3 hours**
+
+# October 13: Wired regulator schematic
+
+I decided to start wiring the regulator first. TI has a really nice tool that generates a schematic which I used.
+
+![Regulator reference schematic](images/reg_ref_circuit.png)
+
+I then copied this over to kicad.
+
+![Regulator circuit](images/reg_circuit-1.png)
+
+**Total time spent: 1 hours**
