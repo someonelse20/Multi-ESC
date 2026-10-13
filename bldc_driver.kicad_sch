@@ -3220,13 +3220,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 67.31) (xy 139.7 67.31)
+			(xy 129.54 69.85) (xy 139.7 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ba23dc1-c2d4-4903-a23d-bb184e82c28e")
+		(uuid "69264273-6c25-401a-90a0-ee633ad076d6")
 	)
 	(wire
 		(pts
@@ -3370,6 +3370,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 67.31) (xy 139.7 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97a30893-9de2-4abb-89f0-6f8b7855d2fb")
+	)
+	(wire
+		(pts
 			(xy 49.53 72.39) (xy 54.61 72.39)
 		)
 		(stroke
@@ -3420,7 +3430,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 74.93) (xy 139.7 74.93)
+			(xy 129.54 74.93) (xy 149.86 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3450,7 +3460,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 77.47) (xy 139.7 77.47)
+			(xy 129.54 77.47) (xy 149.86 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3580,16 +3590,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 69.85) (xy 139.7 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e20c5e4e-3cae-4726-b19b-4b82ad0b3d8e")
-	)
-	(wire
-		(pts
 			(xy 41.91 72.39) (xy 49.53 72.39)
 		)
 		(stroke
@@ -3698,6 +3698,16 @@
 		)
 		(uuid "1145b613-bf00-42e3-b5fd-6edfa40f7cf2")
 	)
+	(label "UART_RX"
+		(at 149.86 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1aa41857-0ee5-4920-a77a-ff273d20291b")
+	)
 	(label "HSE_OUT"
 		(at 88.9 67.31 0)
 		(effects
@@ -3778,15 +3788,15 @@
 		)
 		(uuid "55c152fa-c6f3-4716-9a39-9745c2f9c768")
 	)
-	(label "BEMF_A"
-		(at 139.7 67.31 180)
+	(label "UART_TX"
+		(at 149.86 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "5c5ac327-ea7f-4643-9aff-87939d29ea77")
+		(uuid "572c20e6-718c-4d67-b2ec-97e7a7bf8773")
 	)
 	(label "SCLK"
 		(at 172.72 73.66 0)
@@ -3808,15 +3818,15 @@
 		)
 		(uuid "60d17aed-4910-4d2d-8fa5-c5018b384117")
 	)
-	(label "BEMF_B"
-		(at 139.7 69.85 180)
+	(label "BEMF_A"
+		(at 139.7 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "92dceb9d-474e-436a-8c87-e70b4d642136")
+		(uuid "79e48978-928a-4559-841a-0da6eaca831d")
 	)
 	(label "INHB"
 		(at 139.7 74.93 180)
@@ -3897,6 +3907,16 @@
 			(justify right bottom)
 		)
 		(uuid "b305a9db-4dc5-407c-ad2b-be926e28a618")
+	)
+	(label "BEMF_B"
+		(at 139.7 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bdddca5a-b8d0-47f0-85cc-d6f0ed72ae77")
 	)
 	(label "HSE_OUT"
 		(at 76.2 72.39 180)
