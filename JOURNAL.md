@@ -43,3 +43,27 @@ Next I went to routing the mcu for the driver. After looking over the datasheet 
 ![MCU circuit](images/mcu_circuit-1.png)
 
 **Total time spent: 2 hours**
+
+# October 14: Wired gate driver circuit
+
+Right after the last journal I realized I had no way of programming the mcu. The datasheet said it could be flashed through SPI1 which I was using but through different pins. I decided to add test points for a uart interface so that way I could put it into boot mode and flash it that way. I also added test points for the reset pins and added external labels for the sheet.
+
+![Updated MCU circuit](images/mcu_circuit-2.png)
+
+I then went on to wire up the gate driver. I followed the datasheet and double checked that everything will work with 1.8v instead of the normal 3.3v. From what I can find it will still work fine but I think I'll reach out to TI to be absolutly sure.
+
+![Driver circuit](images/driver_circuit-1.png)
+
+Next I added a TVS diode for overvoltage protection. The gate driver is rated for 60v and the mosfets for 100v. I chose a maximum voltage of 40v to give me plenty of headway. I then added a p channel mosfet for reverse current protection because the motor can drive the current backwards.
+
+![Power protection circuit](images/power_circuit-1.png)
+
+Then I went to the actual inverter circuit. For a previous board I added a bunch of fancy r-c snubbers and shunt resistors but I decided to keep it simple here because I'm not going for peak performance. The gate driver doesn't have current measurement anyway so I routed it up with little extra components. I did add voltage dividors to measure each line voltage safely.
+
+![Gate circuit](images/gate_circuit-1.png)
+
+To read the true voltage of each motor phase it needs to be compared to the motor's ground. I can recreate that circuit with a set of resistors to create a virtual ground.
+
+![Virtual ground circuit](images/vgnd_circuit-1.png)
+
+**Total time spent: 3 hours**
