@@ -697,7 +697,7 @@
         "uuid": "332a84c1-656a-45ff-900c-4414e0318fba"
       }
     ],
-    "used_designators": "J1-3,R5-17,TP1-8,Y1-2,#PWR2,#PWR13-49,FB1,D1,C9-25,Q1-12,U1-7",
+    "used_designators": "J1-12,R5-56,TP1-16,Y1-4,#PWR2,#PWR13-120,FB1,D1-4,C9-79,Q1-28,U1-13",
     "variants": []
   },
   "sheets": [
@@ -707,7 +707,7 @@
     ],
     [
       "b7298b97-ad7a-472d-b821-c393573fc3f1",
-      "BLDC Driver"
+      "BLDC Driver0"
     ]
   ],
   "text_variables": {},

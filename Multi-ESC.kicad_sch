@@ -5,6 +5,135 @@
 	(uuid "332a84c1-656a-45ff-900c-4414e0318fba")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -461,6 +590,184 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SMAJ40CA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ40CA"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "400W bidirectional Transient Voltage Suppressor, 40.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "bidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMAJ40CA_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ40CA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1370,6 +1677,24 @@
 		(uuid "6d3ec2da-09f1-4bb6-aacd-99812b967bf7")
 	)
 	(junction
+		(at 52.07 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6da11048-826e-4cfe-b3d4-fce3f1ded9fe")
+	)
+	(junction
+		(at 52.07 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7acf4f68-7c7a-43d4-9cf2-0d61d825975c")
+	)
+	(junction
+		(at 68.58 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f5ceb94-77d7-4465-a4f7-5652582887ad")
+	)
+	(junction
 		(at 124.46 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1382,6 +1707,12 @@
 		(uuid "ab976b26-36b3-4efc-be9b-8e827c480d22")
 	)
 	(junction
+		(at 68.58 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1abcc88-9970-4a65-a63c-f18deec98880")
+	)
+	(junction
 		(at 147.32 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1392,6 +1723,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdcdc618-d56f-4704-8e9e-f6bcd6e73fab")
+	)
+	(wire
+		(pts
+			(xy 234.95 26.67) (xy 242.57 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06796909-0ae2-4626-a373-de6bcc8e834d")
 	)
 	(wire
 		(pts
@@ -1425,6 +1766,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 29.21) (xy 242.57 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ebdb13d-86d9-4fbd-aa20-766bd12842d5")
+	)
+	(wire
+		(pts
 			(xy 120.65 165.1) (xy 147.32 165.1)
 		)
 		(stroke
@@ -1455,6 +1806,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 34.29) (xy 52.07 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24352bd1-5d5a-4045-b68f-b0503839a5a0")
+	)
+	(wire
+		(pts
 			(xy 34.29 162.56) (xy 80.01 162.56)
 		)
 		(stroke
@@ -1475,6 +1836,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 34.29) (xy 242.57 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "289ba8b2-d21d-466d-bad1-0e20e120dc4c")
+	)
+	(wire
+		(pts
 			(xy 69.85 181.61) (xy 69.85 182.88)
 		)
 		(stroke
@@ -1482,6 +1853,16 @@
 			(type default)
 		)
 		(uuid "2aa21601-a2f9-48fd-bd49-38f453b6d052")
+	)
+	(wire
+		(pts
+			(xy 52.07 34.29) (xy 52.07 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c24a3db-b4f2-44ba-b9cf-990156d95307")
 	)
 	(wire
 		(pts
@@ -1545,6 +1926,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 44.45) (xy 68.58 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44dacacf-e7ec-44fd-90c4-acd0e0f00d5f")
+	)
+	(wire
+		(pts
 			(xy 113.03 165.1) (xy 111.76 165.1)
 		)
 		(stroke
@@ -1552,6 +1943,16 @@
 			(type default)
 		)
 		(uuid "46624d4b-89be-48e2-be7b-278f40a2ef78")
+	)
+	(wire
+		(pts
+			(xy 234.95 31.75) (xy 242.57 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b921d18-662c-43b3-9301-dfd0f13f4f89")
 	)
 	(wire
 		(pts
@@ -1575,6 +1976,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 43.18) (xy 68.58 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558529da-e0fe-4151-bfdd-b7f7a0cea944")
+	)
+	(wire
+		(pts
 			(xy 102.87 171.45) (xy 102.87 175.26)
 		)
 		(stroke
@@ -1592,6 +2003,26 @@
 			(type default)
 		)
 		(uuid "5d387692-2c29-4f57-9445-fb0ce8a7a4b9")
+	)
+	(wire
+		(pts
+			(xy 52.07 44.45) (xy 52.07 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e673531-0ad9-4ce8-aab9-27bc817ab8a0")
+	)
+	(wire
+		(pts
+			(xy 52.07 34.29) (xy 68.58 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62562ce7-6b9f-4b74-b87f-ec732d6bd009")
 	)
 	(wire
 		(pts
@@ -1715,6 +2146,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 44.45) (xy 68.58 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27d8c9b-e06e-4970-9e08-d1d8337b3b92")
+	)
+	(wire
+		(pts
 			(xy 101.6 165.1) (xy 111.76 165.1)
 		)
 		(stroke
@@ -1722,6 +2163,16 @@
 			(type default)
 		)
 		(uuid "a6db5926-bf5e-4b50-b906-c0547542d2ed")
+	)
+	(wire
+		(pts
+			(xy 68.58 33.02) (xy 68.58 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c45220-39c4-415d-a34d-82a09b12582e")
 	)
 	(wire
 		(pts
@@ -1785,6 +2236,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 34.29) (xy 68.58 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde03cef-b1f5-4bc1-af80-4d6c658c2ed1")
+	)
+	(wire
+		(pts
 			(xy 102.87 162.56) (xy 101.6 162.56)
 		)
 		(stroke
@@ -1792,6 +2253,16 @@
 			(type default)
 		)
 		(uuid "e11c1ab3-cd31-4978-8fe6-a7f8364dde20")
+	)
+	(wire
+		(pts
+			(xy 49.53 44.45) (xy 52.07 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3e2e554-c80f-4f48-ac64-3363ffd157b4")
 	)
 	(wire
 		(pts
@@ -1812,6 +2283,284 @@
 			(type default)
 		)
 		(uuid "f1b93333-c854-4b34-a87d-76d88cad0117")
+	)
+	(label "PWM0"
+		(at 234.95 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "687e57d2-0e76-48cb-a07c-3c0f9b2844c1")
+	)
+	(label "SCL"
+		(at 234.95 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cd4d97e-6559-4e52-abc0-fcc5d28a3791")
+	)
+	(label "BOOT"
+		(at 234.95 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98a91c92-6d1a-4dd4-8a34-8d6090a7a6e4")
+	)
+	(label "SDA"
+		(at 234.95 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0ec212e-e65e-49d3-aea1-1f1f1864461e")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 44.45 34.29 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "032587ec-7c82-4be6-8abc-8538a606323e")
+		(property "Reference" "J4"
+			(at 41.91 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 41.91 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 44.45 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9745503-f871-4eac-8aa3-02db3cd81cf7")
+		)
+		(instances
+			(project "Multi-ESC"
+				(path "/332a84c1-656a-45ff-900c-4414e0318fba"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ40CA")
+		(at 52.07 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04e29c7f-087d-4510-beb4-e3df58062dec")
+		(property "Reference" "D2"
+			(at 54.61 38.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ40CA"
+			(at 54.61 40.6399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 57.15 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 52.07 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 40.0Vr, SMA(DO-214AC)"
+			(at 52.07 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "61364b9f-7fb1-4b98-bef9-30f7f6229d99")
+		)
+		(pin "1"
+			(uuid "6e53719f-2a2a-4d83-8956-4523e9872e1d")
+		)
+		(instances
+			(project "Multi-ESC"
+				(path "/332a84c1-656a-45ff-900c-4414e0318fba"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1d2ccd7d-7ef7-4481-8d28-4714ad31e86a")
+		(property "Reference" "#PWR043"
+			(at 68.58 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 49.784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "874f27ec-fc4b-42f2-8047-0b2da41db01f")
+		)
+		(instances
+			(project "Multi-ESC"
+				(path "/332a84c1-656a-45ff-900c-4414e0318fba"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2244,6 +2993,162 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 44.45 44.45 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "612e6a0e-0dc8-483d-b36d-ffb9ed8ebf8c")
+		(property "Reference" "J5"
+			(at 41.91 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 41.91 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 44.45 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ebdbb5be-715b-4ed8-8158-3ffbb9a83bdd")
+		)
+		(instances
+			(project "Multi-ESC"
+				(path "/332a84c1-656a-45ff-900c-4414e0318fba"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 68.58 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "65da0e4a-3fc3-4c07-b799-9634deef6938")
+		(property "Reference" "#PWR014"
+			(at 68.58 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 68.58 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 68.58 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e502542-5966-4dc4-a9a6-ebad2c483dab")
+		)
+		(instances
+			(project "Multi-ESC"
+				(path "/332a84c1-656a-45ff-900c-4414e0318fba"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 124.46 180.34 0)
 		(unit 1)
@@ -2576,6 +3481,98 @@
 			(project "Multi-ESC"
 				(path "/332a84c1-656a-45ff-900c-4414e0318fba"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 68.58 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7588338a-e60f-4b7a-b0ce-9b6cdd5d79c6")
+		(property "Reference" "C30"
+			(at 71.374 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000uF"
+			(at 71.374 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.5452 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 68.58 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 68.58 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4495de9b-157b-414a-a7bf-11cd03ce0617")
+		)
+		(pin "1"
+			(uuid "369e0b94-883b-4260-b248-bb2023c2acdb")
+		)
+		(instances
+			(project "Multi-ESC"
+				(path "/332a84c1-656a-45ff-900c-4414e0318fba"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -3968,8 +4965,8 @@
 		)
 	)
 	(sheet
-		(at 167.64 42.545)
-		(size 25.4 17.145)
+		(at 242.57 23.495)
+		(size 24.765 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3983,8 +4980,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "b7298b97-ad7a-472d-b821-c393573fc3f1")
-		(property "Sheetname" "BLDC Driver"
-			(at 167.64 41.8334 0)
+		(property "Sheetname" "BLDC Driver0"
+			(at 242.57 22.7834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3995,7 +4992,7 @@
 			)
 		)
 		(property "Sheetfile" "bldc_driver.kicad_sch"
-			(at 167.64 60.2746 0)
+			(at 242.57 38.0496 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4003,6 +5000,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BOOT" input
+			(at 242.57 26.67 180)
+			(uuid "3d6dc0d4-2e2f-4887-9b57-4d329038600e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN_PWM" input
+			(at 242.57 29.21 180)
+			(uuid "bc3f2961-f2e1-4014-a11e-819425023d9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 242.57 31.75 180)
+			(uuid "9af2768f-2b5c-4450-9df4-f960297bc285")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 242.57 34.29 180)
+			(uuid "add00e56-7d7a-4983-998e-31daac9fa36d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
