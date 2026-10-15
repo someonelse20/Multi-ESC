@@ -67,3 +67,19 @@ To read the true voltage of each motor phase it needs to be compared to the moto
 ![Virtual ground circuit](images/vgnd_circuit-1.png)
 
 **Total time spent: 3 hours**
+
+# October 15: Added overvoltage protection and bulk capacitance
+
+The circuit needs a lot of capacitance to smooth out the noisy switching of the gates and the feedback of the motor. I found online that a good rule of thumb is about 20uF per 1A which puts me at roughly 600uF for 30A. It is also good to have some electrolytic capacitors with high capacitance for low frequency ripples and ceramic capacitors with low capacitance for high frequency ripples. For my design I have two 270uF electrolytic capacitors and six 10uF ceramic capacitors for a total of 600uF.
+
+![Driver capacitor bank](images/driver_bank-1.png)
+
+I also added one 1000uF capacitor that will be soldered on externaly on the battery leads for extra capacitance for the entire board. There is also another TVS diode to prevent overvoltage.
+
+![Global capacitor bank](images/global_bank-1.png)
+
+I decided to add extra overvoltage protection on the analog lines with some barrier diodes.
+
+![Analog circuit](images/analog-circiut-1.png)
+
+**Total time spent: 2 hours**
