@@ -83,3 +83,20 @@ I decided to add extra overvoltage protection on the analog lines with some barr
 ![Analog circuit](images/analog-circiut-1.png)
 
 **Total time spent: 2 hours**
+
+# October 19: Selected footprints and made regulator layout
+
+### Selecting footprints
+
+To start the pcb layout I selected footprints for all the components. I had to do a little digging to find the right footprint for the mosfets but I found the right one eventually. The rest was pretty straightforward.
+
+![Footprints](images/footprints-1.png)
+
+### Regulator layout
+
+I started making the pdb layout with the regulator. I noticed that I had the wrong footprint for the ic so I went and fixed that and finished it up. 
+
+![Regulator layout](images/reg_layout-1.png)
+
+**Total time spent: 2 hours**
+

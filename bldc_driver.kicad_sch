@@ -7750,7 +7750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:WQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 36.83 118.618 90)
 			(hide yes)
 			(show_name no)
@@ -8705,7 +8705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:WQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 36.83 133.858 90)
 			(hide yes)
 			(show_name no)
@@ -11055,7 +11055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:WQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 36.83 126.238 90)
 			(hide yes)
 			(show_name no)
