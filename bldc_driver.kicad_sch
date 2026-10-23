@@ -835,7 +835,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:BAT54C"
+		(symbol "Diode:BAT54CW"
 			(pin_names
 				(offset 1.016)
 			)
@@ -855,7 +855,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BAT54C"
+			(property "Value" "BAT54CW"
 				(at -6.35 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -866,7 +866,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 				(at 1.905 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -878,7 +878,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
 				(at -2.032 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -889,7 +889,7 @@
 					)
 				)
 			)
-			(property "Description" "dual schottky barrier diode, common cathode"
+			(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -900,7 +900,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "schottky diode common cathode"
+			(property "ki_keywords" "dual schottky diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -911,7 +911,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_fp_filters" "SOT?323*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -922,7 +922,7 @@
 					)
 				)
 			)
-			(symbol "BAT54C_0_1"
+			(symbol "BAT54CW_0_1"
 				(polyline
 					(pts
 						(xy -3.175 -1.27) (xy -3.175 1.27) (xy -1.27 0) (xy -3.175 -1.27)
@@ -1115,7 +1115,7 @@
 					)
 				)
 			)
-			(symbol "BAT54C_1_1"
+			(symbol "BAT54CW_1_1"
 				(pin passive line
 					(at -7.62 0 0)
 					(length 3.81)
@@ -2608,24 +2608,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 12.7 -25.4 180)
-					(length 2.54)
-					(name "DVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin tri_state line
 					(at -12.7 -11.43 0)
 					(length 2.54)
@@ -2727,6 +2709,24 @@
 						)
 					)
 					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 -25.4 180)
+					(length 2.54)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4311,7 +4311,7 @@
 		(uuid "5423b344-d785-45df-b9d9-f9c9c47488f0")
 	)
 	(junction
-		(at 45.72 125.73)
+		(at 45.72 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ae6a962-f20f-4188-9604-f7d1494fad0b")
@@ -4407,6 +4407,12 @@
 		(uuid "c6e008e6-1513-4826-a1e1-83fe4aafb509")
 	)
 	(junction
+		(at 41.91 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c81b4e2a-f08f-4ab1-b619-fc171472368a")
+	)
+	(junction
 		(at 246.38 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4453,6 +4459,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff0c09b0-a022-46ed-8279-483f4096d22a")
+	)
+	(no_connect
+		(at 129.54 54.61)
+		(uuid "670c0c20-9e7f-434b-ac33-86c97dafed63")
+	)
+	(no_connect
+		(at 129.54 85.09)
+		(uuid "70ef9c6b-73e5-4e6b-85d0-c40dde873024")
+	)
+	(no_connect
+		(at 99.06 82.55)
+		(uuid "91019262-79da-45ca-be13-74eedb2fd1dc")
+	)
+	(no_connect
+		(at 129.54 82.55)
+		(uuid "a2844c96-d941-4a20-b31c-a0fab5a3a20f")
 	)
 	(wire
 		(pts
@@ -4616,6 +4638,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 124.46) (xy 45.72 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17ffb258-3517-4d4a-ac18-6ddfcbd2991e")
+	)
+	(wire
+		(pts
 			(xy 111.76 44.45) (xy 111.76 43.18)
 		)
 		(stroke
@@ -4683,6 +4715,16 @@
 			(type default)
 		)
 		(uuid "1ee41107-eaff-4cba-8564-aaedc868ddca")
+	)
+	(wire
+		(pts
+			(xy 41.91 124.46) (xy 41.91 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ffb63ef-00b3-43be-b4c4-82068cd92317")
 	)
 	(wire
 		(pts
@@ -4886,16 +4928,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 132.08) (xy 41.91 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3436f4d9-26ec-488a-9d36-55bde9a19da2")
-	)
-	(wire
-		(pts
 			(xy 116.84 43.18) (xy 116.84 44.45)
 		)
 		(stroke
@@ -4913,6 +4945,16 @@
 			(type default)
 		)
 		(uuid "362db17d-085e-4747-adaf-5d1a973a9658")
+	)
+	(wire
+		(pts
+			(xy 41.91 116.84) (xy 41.91 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36815201-0f9b-4ede-a7e2-25d770340a5b")
 	)
 	(wire
 		(pts
@@ -4946,7 +4988,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 125.73) (xy 52.07 125.73)
+			(xy 45.72 124.46) (xy 48.26 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4993,16 +5035,6 @@
 			(type default)
 		)
 		(uuid "40961d27-a2a3-4737-aac8-40d30f3cfe9f")
-	)
-	(wire
-		(pts
-			(xy 254 133.35) (xy 254 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "409ec84a-f84b-49b8-ba78-622d72193d8a")
 	)
 	(wire
 		(pts
@@ -5256,7 +5288,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 125.73) (xy 73.66 125.73)
+			(xy 63.5 124.46) (xy 69.85 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5376,6 +5408,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 124.46) (xy 45.72 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c71c235-d90e-4917-b82f-3c0ecb47ef39")
+	)
+	(wire
+		(pts
 			(xy 123.19 154.94) (xy 129.54 154.94)
 		)
 		(stroke
@@ -5456,16 +5498,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 125.73) (xy 45.72 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75c6209b-fcc7-4b00-80b0-9c8559115c89")
-	)
-	(wire
-		(pts
 			(xy 24.13 170.18) (xy 30.48 170.18)
 		)
 		(stroke
@@ -5476,7 +5508,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 124.46) (xy 45.72 124.46)
+			(xy 40.64 124.46) (xy 41.91 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6046,6 +6078,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 133.35) (xy 254 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e5eaed-cd24-4cba-b5f5-24b5ef8fedf7")
+	)
+	(wire
+		(pts
 			(xy 87.63 175.26) (xy 87.63 176.53)
 		)
 		(stroke
@@ -6516,16 +6558,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 132.08) (xy 254 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb734889-75a5-48d6-af7c-971519054365")
-	)
-	(wire
-		(pts
 			(xy 137.16 175.26) (xy 137.16 176.53)
 		)
 		(stroke
@@ -6546,7 +6578,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 119.38) (xy 59.69 120.65)
+			(xy 55.88 118.11) (xy 55.88 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6573,6 +6605,16 @@
 			(type default)
 		)
 		(uuid "ed8ff565-d5cb-46ca-966d-4b2c5b5e636d")
+	)
+	(wire
+		(pts
+			(xy 252.73 132.08) (xy 254 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee89be63-46a0-4b94-bb73-7d60555d37c4")
 	)
 	(wire
 		(pts
@@ -6939,7 +6981,7 @@
 		(uuid "49457d7c-185a-494d-8df3-2a91bfe881bb")
 	)
 	(label "VGND"
-		(at 73.66 125.73 180)
+		(at 69.85 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7985,6 +8027,101 @@
 				)
 				(path "/332a84c1-656a-45ff-900c-4414e0318fba/c36d3e5d-c5cc-451f-94bd-ca3cb24229a7"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 40.64 63.5 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0d0fed19-b32b-4504-9296-45790a4383f8")
+		(property "Reference" "D4"
+			(at 45.72 57.658 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 45.72 60.198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at 38.735 66.675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 42.672 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 40.64 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7d1c639b-8bb1-414e-99d5-2e06dc9e87cd")
+		)
+		(pin "1"
+			(uuid "79d853d2-9bac-460d-84ee-827401c1ef30")
+		)
+		(pin "3"
+			(uuid "97066964-5bf5-43a4-a926-7f4ceb1e8820")
+		)
+		(instances
+			(project "Multi-ESC"
+				(path "/332a84c1-656a-45ff-900c-4414e0318fba/2d52fef5-5f6d-4a4b-a882-d93d740f26e9"
+					(reference "D23")
+					(unit 1)
+				)
+				(path "/332a84c1-656a-45ff-900c-4414e0318fba/b7298b97-ad7a-472d-b821-c393573fc3f1"
+					(reference "D4")
+					(unit 1)
+				)
+				(path "/332a84c1-656a-45ff-900c-4414e0318fba/b9698d6f-e675-48c8-803a-a21bd901aea4"
+					(reference "D25")
+					(unit 1)
+				)
+				(path "/332a84c1-656a-45ff-900c-4414e0318fba/c36d3e5d-c5cc-451f-94bd-ca3cb24229a7"
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -9137,6 +9274,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 40.64 92.71 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "254c2c8a-d809-4158-aebc-74e185e54ee7")
+		(property "Reference" "D6"
+			(at 45.72 86.868 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 45.72 89.408 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at 38.735 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 42.672 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 40.64 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8bb305bc-8c4a-4382-80a4-454af1819f00")
+		)
+		(pin "1"
+			(uuid "e09d62b0-ac52-4679-879c-73b191a6c09d")
+		)
+		(pin "3"
+			(uuid "67c5c2d9-a5d2-49b3-9706-a6d4c9edc0f7")
+		)
+		(instances
+			(project "Multi-ESC"
+				(path "/332a84c1-656a-45ff-900c-4414e0318fba/2d52fef5-5f6d-4a4b-a882-d93d740f26e9"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/332a84c1-656a-45ff-900c-4414e0318fba/b7298b97-ad7a-472d-b821-c393573fc3f1"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/332a84c1-656a-45ff-900c-4414e0318fba/b9698d6f-e675-48c8-803a-a21bd901aea4"
+					(reference "D14")
+					(unit 1)
+				)
+				(path "/332a84c1-656a-45ff-900c-4414e0318fba/c36d3e5d-c5cc-451f-94bd-ca3cb24229a7"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 254 137.16 0)
 		(unit 1)
@@ -9273,7 +9505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 228.2952 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10243,7 +10475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 253.6952 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10633,101 +10865,6 @@
 				)
 				(path "/332a84c1-656a-45ff-900c-4414e0318fba/c36d3e5d-c5cc-451f-94bd-ca3cb24229a7"
 					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAT54C")
-		(at 40.64 63.5 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "53045004-fdbe-4e34-9848-1a3d47c3b832")
-		(property "Reference" "D4"
-			(at 45.72 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT54C"
-			(at 45.72 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 38.735 66.675 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
-			(at 42.672 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "dual schottky barrier diode, common cathode"
-			(at 40.64 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b2201e85-f730-4050-81ce-b192cd3b91f9")
-		)
-		(pin "3"
-			(uuid "521f3e8a-3c9c-4c3b-aa6d-f98026fdb3bd")
-		)
-		(pin "1"
-			(uuid "c6672252-04dd-418e-99c5-2dd9ab6686be")
-		)
-		(instances
-			(project "Multi-ESC"
-				(path "/332a84c1-656a-45ff-900c-4414e0318fba/2d52fef5-5f6d-4a4b-a882-d93d740f26e9"
-					(reference "D7")
-					(unit 1)
-				)
-				(path "/332a84c1-656a-45ff-900c-4414e0318fba/b7298b97-ad7a-472d-b821-c393573fc3f1"
-					(reference "D4")
-					(unit 1)
-				)
-				(path "/332a84c1-656a-45ff-900c-4414e0318fba/b9698d6f-e675-48c8-803a-a21bd901aea4"
-					(reference "D17")
-					(unit 1)
-				)
-				(path "/332a84c1-656a-45ff-900c-4414e0318fba/c36d3e5d-c5cc-451f-94bd-ca3cb24229a7"
-					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -11555,7 +11692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 260.0452 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -12288,7 +12425,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT54C")
+		(lib_id "Diode:BAT54CW")
 		(at 40.64 77.47 180)
 		(unit 1)
 		(body_style 1)
@@ -12297,9 +12434,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7df820fa-410e-4992-b0c7-d39689f46721")
-		(property "Reference" "D5"
-			(at 45.72 71.12 0)
+		(uuid "7e1dcc54-6027-4435-9ac3-c8c08a3d5284")
+		(property "Reference" "D7"
+			(at 45.72 71.628 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12308,8 +12445,8 @@
 				)
 			)
 		)
-		(property "Value" "BAT54C"
-			(at 45.72 73.66 0)
+		(property "Value" "BAT54CW"
+			(at 45.72 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12318,7 +12455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 38.735 80.645 0)
 			(hide yes)
 			(show_name no)
@@ -12330,7 +12467,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
 			(at 42.672 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -12341,7 +12478,7 @@
 				)
 			)
 		)
-		(property "Description" "dual schottky barrier diode, common cathode"
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
 			(at 40.64 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -12353,13 +12490,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "c699ecf9-7640-4896-9a59-b0d695cc2359")
-		)
-		(pin "3"
-			(uuid "57998dae-a3b2-485c-8425-e27b5d0f7e66")
+			(uuid "76754acd-9d1f-4bf8-be02-6600c1acc342")
 		)
 		(pin "1"
-			(uuid "16f2268f-1d42-4e69-afe8-837af1d83265")
+			(uuid "09051a24-693a-45d8-8d18-db23b9001b3b")
+		)
+		(pin "3"
+			(uuid "242038f2-1e1c-4dd4-aa52-13c309e1c531")
 		)
 		(instances
 			(project "Multi-ESC"
@@ -12368,15 +12505,15 @@
 					(unit 1)
 				)
 				(path "/332a84c1-656a-45ff-900c-4414e0318fba/b7298b97-ad7a-472d-b821-c393573fc3f1"
-					(reference "D5")
+					(reference "D7")
 					(unit 1)
 				)
 				(path "/332a84c1-656a-45ff-900c-4414e0318fba/b9698d6f-e675-48c8-803a-a21bd901aea4"
-					(reference "D18")
+					(reference "D17")
 					(unit 1)
 				)
 				(path "/332a84c1-656a-45ff-900c-4414e0318fba/c36d3e5d-c5cc-451f-94bd-ca3cb24229a7"
-					(reference "D13")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -13951,196 +14088,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT54C")
-		(at 40.64 92.71 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b4f827d0-3118-4eae-bbda-f29323df9826")
-		(property "Reference" "D6"
-			(at 45.72 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT54C"
-			(at 45.72 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 38.735 95.885 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
-			(at 42.672 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "dual schottky barrier diode, common cathode"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bde63de6-f922-4ea3-b419-f68309096a69")
-		)
-		(pin "3"
-			(uuid "e2d0f055-f8a0-4bb2-81e7-f4c45b985cd2")
-		)
-		(pin "1"
-			(uuid "876b37fb-164b-44e1-8096-1a57e3fbe663")
-		)
-		(instances
-			(project "Multi-ESC"
-				(path "/332a84c1-656a-45ff-900c-4414e0318fba/2d52fef5-5f6d-4a4b-a882-d93d740f26e9"
-					(reference "D9")
-					(unit 1)
-				)
-				(path "/332a84c1-656a-45ff-900c-4414e0318fba/b7298b97-ad7a-472d-b821-c393573fc3f1"
-					(reference "D6")
-					(unit 1)
-				)
-				(path "/332a84c1-656a-45ff-900c-4414e0318fba/b9698d6f-e675-48c8-803a-a21bd901aea4"
-					(reference "D19")
-					(unit 1)
-				)
-				(path "/332a84c1-656a-45ff-900c-4414e0318fba/c36d3e5d-c5cc-451f-94bd-ca3cb24229a7"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAT54C")
-		(at 59.69 125.73 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b512003b-80f1-4fcc-ab8a-f923d83a8828")
-		(property "Reference" "D3"
-			(at 64.262 120.142 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT54C"
-			(at 64.262 122.682 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 57.785 128.905 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
-			(at 61.722 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "dual schottky barrier diode, common cathode"
-			(at 59.69 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "222bd2e4-da67-4e5b-8d09-00c76af46110")
-		)
-		(pin "3"
-			(uuid "525e50fa-6ecc-427e-892d-aa264849a306")
-		)
-		(pin "1"
-			(uuid "fdccae25-1e26-4c8f-bf54-d5ef0c999e28")
-		)
-		(instances
-			(project "Multi-ESC"
-				(path "/332a84c1-656a-45ff-900c-4414e0318fba/2d52fef5-5f6d-4a4b-a882-d93d740f26e9"
-					(reference "D10")
-					(unit 1)
-				)
-				(path "/332a84c1-656a-45ff-900c-4414e0318fba/b7298b97-ad7a-472d-b821-c393573fc3f1"
-					(reference "D3")
-					(unit 1)
-				)
-				(path "/332a84c1-656a-45ff-900c-4414e0318fba/b9698d6f-e675-48c8-803a-a21bd901aea4"
-					(reference "D20")
-					(unit 1)
-				)
-				(path "/332a84c1-656a-45ff-900c-4414e0318fba/c36d3e5d-c5cc-451f-94bd-ca3cb24229a7"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 114.3 99.06 0)
 		(unit 1)
@@ -14335,7 +14282,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 59.69 119.38 0)
+		(at 55.88 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14345,7 +14292,7 @@
 		(dnp no)
 		(uuid "be742b55-49c1-4865-8683-c8d36cf2d791")
 		(property "Reference" "#PWR042"
-			(at 59.69 123.19 0)
+			(at 55.88 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14356,7 +14303,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 59.69 115.824 0)
+			(at 55.88 114.554 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14366,7 +14313,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 119.38 0)
+			(at 55.88 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14377,7 +14324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 119.38 0)
+			(at 55.88 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14388,7 +14335,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 59.69 119.38 0)
+			(at 55.88 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14455,7 +14402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 247.3452 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -15149,7 +15096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 240.9952 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -15424,6 +15371,101 @@
 				)
 				(path "/332a84c1-656a-45ff-900c-4414e0318fba/c36d3e5d-c5cc-451f-94bd-ca3cb24229a7"
 					(reference "C70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 55.88 124.46 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e831495e-3ec5-483b-a44a-219d7c523cbb")
+		(property "Reference" "D10"
+			(at 60.96 118.618 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 60.96 121.158 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at 53.975 127.635 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 57.912 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 55.88 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ccb55141-b4dd-43cf-b8fc-4be9c57eaadb")
+		)
+		(pin "1"
+			(uuid "988f5705-7af3-441b-9b39-8e99bfb3c8b9")
+		)
+		(pin "3"
+			(uuid "70ee5cc5-32f5-48f2-9350-5751b2f95bc5")
+		)
+		(instances
+			(project "Multi-ESC"
+				(path "/332a84c1-656a-45ff-900c-4414e0318fba/2d52fef5-5f6d-4a4b-a882-d93d740f26e9"
+					(reference "D15")
+					(unit 1)
+				)
+				(path "/332a84c1-656a-45ff-900c-4414e0318fba/b7298b97-ad7a-472d-b821-c393573fc3f1"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/332a84c1-656a-45ff-900c-4414e0318fba/b9698d6f-e675-48c8-803a-a21bd901aea4"
+					(reference "D19")
+					(unit 1)
+				)
+				(path "/332a84c1-656a-45ff-900c-4414e0318fba/c36d3e5d-c5cc-451f-94bd-ca3cb24229a7"
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -15849,7 +15891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 234.6452 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -16449,7 +16491,7 @@
 		(pin "28"
 			(uuid "606055f6-da57-4090-8559-6fe4b0c50ee7")
 		)
-		(pin "17"
+		(pin "24"
 			(uuid "de204d51-f79e-4993-802c-ae4c80f4f5fe")
 		)
 		(pin "18"
