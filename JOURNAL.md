@@ -50,7 +50,7 @@ Right after the last journal I realized I had no way of programming the mcu. The
 
 ![Updated MCU circuit](images/mcu_circuit-2.png)
 
-I then went on to wire up the gate driver. I followed the datasheet and double checked that everything will work with 1.8v instead of the normal 3.3v. From what I can find it will still work fine but I think I'll reach out to TI to be absolutly sure.
+I then went on to wire up the gate driver. I followed the datasheet and double checked that everything will work with 1.8v instead of the normal 3.3v. From what I can find it will still work fine but I think I'll reach out to TI to be absolutely sure.
 
 ![Driver circuit](images/driver_circuit-1.png)
 
@@ -74,7 +74,7 @@ The circuit needs a lot of capacitance to smooth out the noisy switching of the 
 
 ![Driver capacitor bank](images/driver_bank-1.png)
 
-I also added one 1000uF capacitor that will be soldered on externaly on the battery leads for extra capacitance for the entire board. There is also another TVS diode to prevent overvoltage.
+I also added one 1000uF capacitor that will be soldered on externally on the battery leads for extra capacitance for the entire board. There is also another TVS diode to prevent overvoltage.
 
 ![Global capacitor bank](images/global_bank-1.png)
 
@@ -97,6 +97,14 @@ To start the pcb layout I selected footprints for all the components. I had to d
 I started making the pdb layout with the regulator. I noticed that I had the wrong footprint for the ic so I went and fixed that and finished it up. 
 
 ![Regulator layout](images/reg_layout-1.png)
+
+**Total time spent: 2 hours**
+
+# October 23: Made driver layout
+
+I started to make the layout for one of the driver circuits. I started with the mcu and added all the caps and the crystal. I then did the same for the gate driver. Next I set up the layout for the mosfets. I had to edit the pin numbers to mach the symbol for the mosfets. Then I took the individual circuits and placed them as close together as I could. I was able to wrap the bulk capacitance around the top of the layout. I also changed the barrier diodes to ones with a smaller package so they would fit better since there are so many of them. The test points will go on the back side of the board but I think I will hold off on placing them until I route it to find a good spot without vias.
+
+![Driver layout](images/driver_layout-1.png)
 
 **Total time spent: 2 hours**
 
