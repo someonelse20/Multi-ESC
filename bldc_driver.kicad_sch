@@ -4281,7 +4281,7 @@
 		(uuid "3ee5fb57-4e6d-46c3-bc96-3f9591ce09ca")
 	)
 	(junction
-		(at 54.61 25.4)
+		(at 55.88 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4131c948-89e7-4fa3-9c11-3f7f9effaada")
@@ -4411,6 +4411,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c81b4e2a-f08f-4ab1-b619-fc171472368a")
+	)
+	(junction
+		(at 30.48 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c84eceea-5887-4778-af10-845153f084cd")
 	)
 	(junction
 		(at 246.38 35.56)
@@ -4778,6 +4784,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 30.48) (xy 30.48 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28bfe0e3-0180-49c5-bc6b-b4e3f26a4021")
+	)
+	(wire
+		(pts
 			(xy 240.03 25.4) (xy 252.73 25.4)
 		)
 		(stroke
@@ -4808,7 +4824,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 25.4) (xy 50.8 25.4)
+			(xy 55.88 25.4) (xy 52.07 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4848,7 +4864,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 36.83) (xy 40.64 35.56)
+			(xy 41.91 36.83) (xy 41.91 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5068,6 +5084,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 24.13) (xy 54.61 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f1501f-f395-4c90-a4b3-bb54e97ef22c")
+	)
+	(wire
+		(pts
 			(xy 252.73 99.06) (xy 260.35 99.06)
 		)
 		(stroke
@@ -5145,6 +5171,16 @@
 			(type default)
 		)
 		(uuid "4f893cf0-e2e4-4119-bffb-8d03d00c4c27")
+	)
+	(wire
+		(pts
+			(xy 30.48 25.4) (xy 30.48 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb314b7-c28b-4e78-a227-d5979e5b71da")
 	)
 	(wire
 		(pts
@@ -5248,7 +5284,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 26.67) (xy 54.61 25.4)
+			(xy 55.88 26.67) (xy 55.88 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5928,7 +5964,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 24.13) (xy 54.61 25.4)
+			(xy 55.88 24.13) (xy 55.88 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5965,6 +6001,16 @@
 			(type default)
 		)
 		(uuid "a4023b32-ea5f-4cda-9286-4ed3c935ba84")
+	)
+	(wire
+		(pts
+			(xy 30.48 25.4) (xy 31.75 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40d94db-49dd-42ef-bf42-2ca078246ffa")
 	)
 	(wire
 		(pts
@@ -6138,7 +6184,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 35.56) (xy 54.61 34.29)
+			(xy 55.88 35.56) (xy 55.88 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6746,7 +6792,7 @@
 		)
 		(uuid "ffd4adba-c57d-4db2-9364-d86743336784")
 	)
-	(label "BEMF_A"
+	(label "BEMF_B"
 		(at 104.14 172.72 180)
 		(effects
 			(font
@@ -6798,7 +6844,7 @@
 		)
 		(uuid "0c81155f-ae66-4995-9e21-2adf50bf0fb8")
 	)
-	(label "BEMF_A"
+	(label "BEMF_C"
 		(at 153.67 172.72 180)
 		(effects
 			(font
@@ -6890,7 +6936,7 @@
 		(uuid "235f6c28-4768-4c82-a283-a875ddba17b4")
 	)
 	(label "+1.8V"
-		(at 54.61 24.13 0)
+		(at 55.88 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9097,7 +9143,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 36.83 0)
+		(at 41.91 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9107,7 +9153,7 @@
 		(dnp no)
 		(uuid "22693c33-7783-4e32-b9c7-5476ff7cebdc")
 		(property "Reference" "#PWR026"
-			(at 40.64 43.18 0)
+			(at 41.91 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9118,7 +9164,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 40.894 0)
+			(at 41.91 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9128,7 +9174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 36.83 0)
+			(at 41.91 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9139,7 +9185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 36.83 0)
+			(at 41.91 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9150,7 +9196,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 36.83 0)
+			(at 41.91 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11465,7 +11511,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 35.56 0)
+		(at 55.88 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11475,7 +11521,7 @@
 		(dnp no)
 		(uuid "64cb6e58-a64d-4411-82de-d7465c9b5f0a")
 		(property "Reference" "#PWR027"
-			(at 54.61 41.91 0)
+			(at 55.88 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11486,7 +11532,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 39.624 0)
+			(at 55.88 39.624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11496,7 +11542,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 35.56 0)
+			(at 55.88 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11507,7 +11553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 35.56 0)
+			(at 55.88 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11518,7 +11564,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 35.56 0)
+			(at 55.88 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14953,7 +14999,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:MIC5504-1.8YM5")
-		(at 40.64 27.94 0)
+		(at 41.91 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14964,7 +15010,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8c3d076-a9e5-485b-a584-2a8d2f150b44")
 		(property "Reference" "U4"
-			(at 40.64 17.78 0)
+			(at 41.91 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14974,7 +15020,7 @@
 			)
 		)
 		(property "Value" "MIC5504-1.8YM5"
-			(at 40.64 20.32 0)
+			(at 41.91 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14984,7 +15030,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 40.64 38.1 0)
+			(at 41.91 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14995,7 +15041,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf"
-			(at 34.29 21.59 0)
+			(at 35.56 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15006,7 +15052,7 @@
 			)
 		)
 		(property "Description" "300mA Low-dropout Voltage Regulator, Vout 1.8V, Vin up to 5.5V, SOT-23"
-			(at 40.64 27.94 0)
+			(at 41.91 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15017,7 +15063,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 40.64 27.94 0)
+			(at 41.91 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16175,7 +16221,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 54.61 30.48 0)
+		(at 55.88 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16185,7 +16231,7 @@
 		(dnp no)
 		(uuid "f95ad98a-30e2-46c5-a986-90d99af46dd0")
 		(property "Reference" "C14"
-			(at 55.88 28.194 0)
+			(at 57.15 28.194 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16196,7 +16242,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 55.88 33.274 0)
+			(at 57.15 33.274 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16207,7 +16253,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 55.5752 34.29 0)
+			(at 56.8452 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16218,7 +16264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 30.48 0)
+			(at 55.88 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16229,7 +16275,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 54.61 30.48 0)
+			(at 55.88 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16240,7 +16286,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 54.61 30.48 0)
+			(at 55.88 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
