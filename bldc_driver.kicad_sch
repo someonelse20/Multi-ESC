@@ -4471,14 +4471,6 @@
 		(uuid "670c0c20-9e7f-434b-ac33-86c97dafed63")
 	)
 	(no_connect
-		(at 129.54 85.09)
-		(uuid "70ef9c6b-73e5-4e6b-85d0-c40dde873024")
-	)
-	(no_connect
-		(at 99.06 82.55)
-		(uuid "91019262-79da-45ca-be13-74eedb2fd1dc")
-	)
-	(no_connect
 		(at 129.54 82.55)
 		(uuid "a2844c96-d941-4a20-b31c-a0fab5a3a20f")
 	)
@@ -4731,6 +4723,16 @@
 			(type default)
 		)
 		(uuid "1ffb63ef-00b3-43be-b4c4-82068cd92317")
+	)
+	(wire
+		(pts
+			(xy 129.54 85.09) (xy 139.7 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "209dba0e-aa5e-4dd2-acfa-660975a89dfc")
 	)
 	(wire
 		(pts
@@ -5794,7 +5796,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 172.72) (xy 144.78 172.72)
+			(xy 156.21 172.72) (xy 144.78 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5981,6 +5983,16 @@
 			(type default)
 		)
 		(uuid "a0f42135-a396-47f8-88ac-662e6c6b4e5b")
+	)
+	(wire
+		(pts
+			(xy 88.9 82.55) (xy 99.06 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a105c0b8-3f05-472f-ab20-60012d5d83f1")
 	)
 	(wire
 		(pts
@@ -6304,7 +6316,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 172.72) (xy 95.25 172.72)
+			(xy 106.68 172.72) (xy 95.25 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6424,7 +6436,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 172.72) (xy 45.72 172.72)
+			(xy 57.15 172.72) (xy 45.72 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6792,8 +6804,8 @@
 		)
 		(uuid "ffd4adba-c57d-4db2-9364-d86743336784")
 	)
-	(label "BEMF_B"
-		(at 104.14 172.72 180)
+	(label "BEMF_U_B"
+		(at 106.68 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6844,8 +6856,8 @@
 		)
 		(uuid "0c81155f-ae66-4995-9e21-2adf50bf0fb8")
 	)
-	(label "BEMF_C"
-		(at 153.67 172.72 180)
+	(label "BEMF_U_C"
+		(at 156.21 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7198,6 +7210,16 @@
 		)
 		(uuid "7cb9a32c-df10-43c0-8e7c-1746a38ba2c5")
 	)
+	(label "DRV_EN"
+		(at 139.7 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e178448-10ac-4bdc-b82e-d419cda7c90b")
+	)
 	(label "IN_PWM"
 		(at 139.7 64.77 180)
 		(effects
@@ -7258,6 +7280,16 @@
 			(justify left bottom)
 		)
 		(uuid "905817b9-2099-42b5-b868-165117c6d119")
+	)
+	(label "FAULT"
+		(at 88.9 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "911c304b-6591-4553-aed5-57da8abbb0c3")
 	)
 	(label "INHB"
 		(at 139.7 74.93 180)
@@ -7380,8 +7412,8 @@
 		)
 		(uuid "add2d0fb-7ce6-489b-9de4-a0b84e7504fb")
 	)
-	(label "BEMF_A"
-		(at 54.61 172.72 180)
+	(label "BEMF_U_A"
+		(at 57.15 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
