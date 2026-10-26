@@ -118,7 +118,7 @@ I don't have much to say here, I just copied the layout I made previously for th
 
 # October 26: Routed driver
 
-I routed one of the drivers. I started with mcu and gate driver which was pretty simple. When wiring the mcu to the gate driver I noticed that I didn't wire up the gate driver enable and fault pins. I also had to go into STM32CubeMX and configure the mcu pins. I then routed up all the analog measuring components. Next I routed up the regulator. Then I added zone fills for the power traces to allow plenty of current through. For some reason the zone fills wouldn't connect to the mosfet footprints.
+I routed one of the drivers. I started with mcu and gate driver which was pretty simple. When wiring the mcu to the gate driver I noticed that I didn't wire up the gate driver enable and fault pins. I also had to go into STM32CubeMX and configure the mcu pins. I then routed up all the analog measuring components. Next I routed up the regulator. Then I added zone fills for the power traces to allow plenty of current through. For some reason the zone fills wouldn't connect to the mosfet footprints so I had to go and fix each footprint so that it would work with the fills. I added the rest of the fills as well as the gate pin traces and power traces. I think I might remove the top two bulk ceramic capacitors because it makes the power trace stick out so much, but I will try to fit it as it is first.
 
 ![Driver PCB](images/driver_pcb-1.png)
 
