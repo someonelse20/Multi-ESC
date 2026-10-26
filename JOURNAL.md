@@ -116,3 +116,9 @@ I don't have much to say here, I just copied the layout I made previously for th
 
 **Total time spent: 1.5 hours**
 
+# October 26: Routed driver
+
+I routed one of the drivers. I started with mcu and gate driver which was pretty simple. When wiring the mcu to the gate driver I noticed that I didn't wire up the gate driver enable and fault pins. I also had to go into STM32CubeMX and configure the mcu pins. I then routed up all the analog measuring components. Next I routed up the regulator. Then I added zone fills for the power traces to allow plenty of current through. For some reason the zone fills wouldn't connect to the mosfet footprints.
+
+**Total time spent: 2 hours**
+
