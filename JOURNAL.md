@@ -108,3 +108,11 @@ I started to make the layout for one of the driver circuits. I started with the 
 
 **Total time spent: 2 hours**
 
+# October 26: Made second driver layout
+
+I don't have much to say here, I just copied the layout I made previously for the next one. I think I will stop and first route one of the drivers to iorn out any layout adjustments next.
+
+![Driver layout 2](images/driver_layout-2.png)
+
+**Total time spent: 1.5 hours**
+
