@@ -153,7 +153,7 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "000fcde9-8c6b-411f-9ba9-bc48d9403d03")
-		(at 156.6925 114.3 180)
+		(at 141.0925 62.57 180)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C89"
@@ -325,7 +325,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "01b38fb6-9270-4c11-ba49-0bb639ac958c")
-		(at 68.95 125.7 -90)
+		(at 70.57 74 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R42"
@@ -497,7 +497,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-323_SC-70"
 		(layer "F.Cu")
 		(uuid "02122a8d-9808-434d-8ff3-4d0dc7645d3c")
-		(at 140.88 135.45 -90)
+		(at 125.28 83.72 -90)
 		(descr "SOT, 3 Pin (https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf#page=148)")
 		(tags "SOT TO_SOT_SMD SC-70 SOT-323")
 		(property "Reference" "D17"
@@ -857,7 +857,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-323_SC-70"
 		(layer "F.Cu")
 		(uuid "02d8e5d6-2f2b-4319-bc51-cc1e57ed8969")
-		(at 139.25 46.0875 -90)
+		(at 122.03 46.0575 -90)
 		(descr "SOT, 3 Pin (https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf#page=148)")
 		(tags "SOT TO_SOT_SMD SC-70 SOT-323")
 		(property "Reference" "D15"
@@ -1217,7 +1217,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-5"
 		(layer "F.Cu")
 		(uuid "042dff6d-4331-4fe4-aa92-ace1614fb8a9")
-		(at 134.5 42.5625 90)
+		(at 117.28 42.5325 90)
 		(descr "SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U5"
@@ -2014,7 +2014,7 @@
 	(footprint "Diode_SMD:D_QFN_3.3x3.3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "05c92952-43e1-481a-bb04-39ec34493269")
-		(at 78.6675 133.7 90)
+		(at 80.2875 82 90)
 		(descr "QFN, diode, 3.3x3.3x1mm (https://www.wolfspeed.com/media/downloads/846/C3D1P7060Q.pdf)")
 		(tags "diode qfn 3.3")
 		(property "Reference" "Q20"
@@ -3119,7 +3119,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "0c7f1761-3298-4b91-9df9-880b22bf0d4b")
-		(at 134.1 39.9)
+		(at 116.88 39.87)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C33"
@@ -3291,7 +3291,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-5"
 		(layer "F.Cu")
 		(uuid "0f425680-1032-4e9d-975b-7156698fd35f")
-		(at 130.98 132.7 90)
+		(at 115.38 80.97 90)
 		(descr "SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U11"
@@ -3706,7 +3706,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "11a66cf2-c4fe-47d6-aaa2-fbf4b34b8717")
-		(at 152.3 45.6 -90)
+		(at 135.08 45.57 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C48"
@@ -3878,7 +3878,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-323_SC-70"
 		(layer "F.Cu")
 		(uuid "134a94cd-0df4-4be8-b09a-92fe6447611f")
-		(at 52.7 134 -90)
+		(at 54.32 82.3 -90)
 		(descr "SOT, 3 Pin (https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf#page=148)")
 		(tags "SOT TO_SOT_SMD SC-70 SOT-323")
 		(property "Reference" "D18"
@@ -4238,7 +4238,7 @@
 	(footprint "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
 		(layer "F.Cu")
 		(uuid "16cc3cc2-5dae-47b7-9e4c-88926e79747d")
-		(at 142.23 129.95)
+		(at 126.63 78.22)
 		(descr "QFN, 32 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_32_05-08-1693.pdf)")
 		(tags "QFN NoLead")
 		(property "Reference" "U12"
@@ -5050,7 +5050,7 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "17e05f1c-be3f-4c36-aa29-01e2a5ea923a")
-		(at 164.89 22.255)
+		(at 147.67 22.225)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C49"
@@ -5222,7 +5222,7 @@
 	(footprint "Package_DFN_QFN:WQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm"
 		(layer "F.Cu")
 		(uuid "1d61bffe-08c8-4fa3-ba30-952bc9a425f6")
-		(at 152.775 41.6 90)
+		(at 135.555 41.57 90)
 		(descr "QFN, 32-Leads, Body 5x5x0.8mm, Pitch 0.5mm, Thermal Pad 3.1x3.1mm; (see Texas Instruments LM25119 http://www.ti.com/lit/ds/symlink/lm25119.pdf)")
 		(tags "WQFN 0.5")
 		(property "Reference" "U7"
@@ -5818,7 +5818,7 @@
 	(footprint "Package_DFN_QFN:WQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm"
 		(layer "F.Cu")
 		(uuid "1f12d3b2-e4fb-4fce-bdf2-5e5a8edb3472")
-		(at 66.375 129.725 90)
+		(at 67.995 78.025 90)
 		(descr "QFN, 32-Leads, Body 5x5x0.8mm, Pitch 0.5mm, Thermal Pad 3.1x3.1mm; (see Texas Instruments LM25119 http://www.ti.com/lit/ds/symlink/lm25119.pdf)")
 		(tags "WQFN 0.5")
 		(property "Reference" "U10"
@@ -6414,7 +6414,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "1f4e0cf0-51a9-4d29-8302-4024ddc6e245")
-		(at 131.9925 122.8 -90)
+		(at 116.3925 71.07 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R53"
@@ -6586,7 +6586,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "211446f0-f63c-422e-820b-98546fb266b8")
-		(at 133.9 133.55)
+		(at 118.3 81.82)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R44"
@@ -6917,7 +6917,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "21ef2d35-c9b9-482f-9074-aa88bb564596")
-		(at 133.91 135.55)
+		(at 118.31 83.82)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R46"
@@ -7357,7 +7357,7 @@
 	(footprint "Package_DFN_QFN:WQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm"
 		(layer "F.Cu")
 		(uuid "2265ee77-cc5a-487f-8905-04ba0be96733")
-		(at 149.48 130.75 90)
+		(at 133.88 79.02 90)
 		(descr "QFN, 32-Leads, Body 5x5x0.8mm, Pitch 0.5mm, Thermal Pad 3.1x3.1mm; (see Texas Instruments LM25119 http://www.ti.com/lit/ds/symlink/lm25119.pdf)")
 		(tags "WQFN 0.5")
 		(property "Reference" "U13"
@@ -7953,7 +7953,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "2290d8ae-2660-466c-8204-777de87bc905")
-		(at 32.535 116.15)
+		(at 34.155 64.45)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP9"
@@ -8234,7 +8234,7 @@
 	(footprint "Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm"
 		(layer "F.Cu")
 		(uuid "24e62931-bc64-4d76-a8f3-90eaf6109638")
-		(at 167.5925 136)
+		(at 151.9925 84.27)
 		(descr "Soldered wire connection, for a single 4 mm² wire, reinforced insulation, conductor diameter 3mm, outer diameter 6mm, size source Multi-Contact FLEXI-xV 2.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 		(tags "connector wire 4sqmm")
 		(property "Reference" "J14"
@@ -8488,7 +8488,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "2800bb06-bb5e-4038-a1c7-af59c5d7600c")
-		(at 147.635 134.525 180)
+		(at 132.035 82.795 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C90"
@@ -8660,7 +8660,7 @@
 	(footprint "Capacitor_SMD:C_Elec_10x10.2"
 		(layer "F.Cu")
 		(uuid "29564512-d132-4bdc-98d3-f95c5f24d88a")
-		(at 152.32 27.53 -90)
+		(at 135.1 27.5 -90)
 		(descr "SMD capacitor, aluminum electrolytic nonpolar, 10.0x10.2mm")
 		(tags "capacitor electrolytic nonpolar")
 		(property "Reference" "C42"
@@ -9081,7 +9081,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "29ccace8-46cd-4435-8f1d-0641634b2d29")
-		(at 53.3 124.1 180)
+		(at 54.92 72.4 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C61"
@@ -9253,7 +9253,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "2a0ee7d0-6f20-4069-8409-f4c04f8b14ec")
-		(at 118.8 132.2)
+		(at 103.2 80.47)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP16"
@@ -9929,7 +9929,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "2c002f9c-775a-4d40-8f7d-09f4ccc1f0e9")
-		(at 79.7925 122.2 180)
+		(at 81.4125 70.5 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R34"
@@ -10101,7 +10101,7 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "2d7eb698-b8b8-47ee-98a5-5840be5e5d7d")
-		(at 160.165 28.855 180)
+		(at 142.945 28.825 180)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C47"
@@ -10273,7 +10273,7 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "2ee5782a-1f0c-4e0f-acae-193c0de4f925")
-		(at 161.3875 114.3)
+		(at 145.7875 62.57)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C94"
@@ -10445,7 +10445,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-323_SC-70"
 		(layer "F.Cu")
 		(uuid "2f10b81a-55f2-41f0-86a4-1873e5037717")
-		(at 59.9 134 -90)
+		(at 61.52 82.3 -90)
 		(descr "SOT, 3 Pin (https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf#page=148)")
 		(tags "SOT TO_SOT_SMD SC-70 SOT-323")
 		(property "Reference" "D13"
@@ -10805,7 +10805,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "304ccb4e-f3fa-4867-88ec-76eda1df8065")
-		(at 52.68 131.9)
+		(at 54.3 80.2)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C54"
@@ -10977,7 +10977,7 @@
 	(footprint "Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm"
 		(layer "F.Cu")
 		(uuid "3084456d-31fb-46e9-b397-65787c1b5a93")
-		(at 171.065 33.355)
+		(at 153.845 33.325)
 		(descr "Soldered wire connection, for a single 4 mm² wire, reinforced insulation, conductor diameter 3mm, outer diameter 6mm, size source Multi-Contact FLEXI-xV 2.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 		(tags "connector wire 4sqmm")
 		(property "Reference" "J6"
@@ -11109,7 +11109,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "317501e3-29d0-46c7-ae97-331ca3293e85")
-		(at 148.3 44.6 -90)
+		(at 131.08 44.57 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C35"
@@ -11281,7 +11281,7 @@
 	(footprint "Diode_SMD:D_QFN_3.3x3.3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "3281b276-bea1-48b8-9222-297abadbaf3b")
-		(at 74.5925 126.975)
+		(at 76.2125 75.275)
 		(descr "QFN, diode, 3.3x3.3x1mm (https://www.wolfspeed.com/media/downloads/846/C3D1P7060Q.pdf)")
 		(tags "diode qfn 3.3")
 		(property "Reference" "Q17"
@@ -11660,7 +11660,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "33913e73-d9c6-4f37-85ea-903cf827303c")
-		(at 134 45.1)
+		(at 116.78 45.07)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C31"
@@ -11954,7 +11954,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "378aec62-d4bd-4d09-9aaa-4979cbd94447")
-		(at 77.8925 129.3 180)
+		(at 79.5125 77.6 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R37"
@@ -12126,7 +12126,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "3895e8a1-a1e2-4ca2-a808-ade150e6cd22")
-		(at 150.9 37.1)
+		(at 133.68 37.07)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R30"
@@ -12642,7 +12642,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-323_SC-70"
 		(layer "F.Cu")
 		(uuid "3c76c5ee-00db-4f9b-9cb0-0c59158519c0")
-		(at 144.1 46.1125 -90)
+		(at 126.88 46.0825 -90)
 		(descr "SOT, 3 Pin (https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf#page=148)")
 		(tags "SOT TO_SOT_SMD SC-70 SOT-323")
 		(property "Reference" "D8"
@@ -13002,7 +13002,7 @@
 	(footprint "Diode_SMD:D_QFN_3.3x3.3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "3e7a8733-0391-4c33-948d-565320434aee")
-		(at 160.965 39.63)
+		(at 143.745 39.6)
 		(descr "QFN, diode, 3.3x3.3x1mm (https://www.wolfspeed.com/media/downloads/846/C3D1P7060Q.pdf)")
 		(tags "diode qfn 3.3")
 		(property "Reference" "Q10"
@@ -13381,7 +13381,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "4043569d-1e15-49e8-96ba-5bc0308c0f01")
-		(at 79.8025 129.3 180)
+		(at 81.4225 77.6 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R36"
@@ -13553,7 +13553,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "406ce524-509d-4169-9006-12e36033bba8")
-		(at 139.6 36.7 180)
+		(at 122.38 36.67 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C39"
@@ -14085,7 +14085,7 @@
 	(footprint "Diode_SMD:D_QFN_3.3x3.3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "46dee6e3-a6a1-476d-a569-52d37718e9b9")
-		(at 78.6675 119.6 90)
+		(at 80.2875 67.9 90)
 		(descr "QFN, diode, 3.3x3.3x1mm (https://www.wolfspeed.com/media/downloads/846/C3D1P7060Q.pdf)")
 		(tags "diode qfn 3.3")
 		(property "Reference" "Q16"
@@ -14464,7 +14464,7 @@
 	(footprint "Capacitor_SMD:C_Elec_10x10.2"
 		(layer "F.Cu")
 		(uuid "47316ab2-1b9e-4b36-8a41-5fa855a14ba4")
-		(at 148.7925 116.3 -90)
+		(at 133.1925 64.57 -90)
 		(descr "SMD capacitor, aluminum electrolytic nonpolar, 10.0x10.2mm")
 		(tags "capacitor electrolytic nonpolar")
 		(property "Reference" "C85"
@@ -15465,7 +15465,7 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "499da576-59be-48dd-a79c-20d203af5824")
-		(at 161.3875 111)
+		(at 145.7875 59.27)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C93"
@@ -15637,7 +15637,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "4a810ee3-44cd-40eb-9245-cb1304fa4f38")
-		(at 140.8 42.3 180)
+		(at 123.58 42.27 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C37"
@@ -15809,7 +15809,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "4b41c685-b78d-461b-8808-092bd1db40bc")
-		(at 32.535 120.2)
+		(at 34.155 68.5)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP10"
@@ -15931,7 +15931,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "4b853140-d397-47c3-b6eb-603474e8eb98")
-		(at 56.6 124.42 90)
+		(at 58.22 72.72 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C56"
@@ -16275,7 +16275,7 @@
 	(footprint "Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm"
 		(layer "F.Cu")
 		(uuid "4f279120-5d64-42e0-a7bc-7c55ced664c4")
-		(at 84.5925 127.3)
+		(at 86.2125 75.6)
 		(descr "Soldered wire connection, for a single 4 mm² wire, reinforced insulation, conductor diameter 3mm, outer diameter 6mm, size source Multi-Contact FLEXI-xV 2.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 		(tags "connector wire 4sqmm")
 		(property "Reference" "J10"
@@ -16407,7 +16407,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "4fa4bad4-48ed-4206-a016-0154231c3a0b")
-		(at 150.9 38.1)
+		(at 133.68 38.07)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C51"
@@ -16579,7 +16579,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "4fd1323b-f59c-44cd-8a4e-478846fc207a")
-		(at 130.58 130.1)
+		(at 114.98 78.37)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C77"
@@ -16751,7 +16751,7 @@
 	(footprint "Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm"
 		(layer "F.Cu")
 		(uuid "4fe3bdc9-dd6c-4b91-b810-bf201d3290f9")
-		(at 171.065 47.355)
+		(at 153.845 47.325)
 		(descr "Soldered wire connection, for a single 4 mm² wire, reinforced insulation, conductor diameter 3mm, outer diameter 6mm, size source Multi-Contact FLEXI-xV 2.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 		(tags "connector wire 4sqmm")
 		(property "Reference" "J8"
@@ -16883,7 +16883,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "4fed7d0d-4acc-42ba-804a-19793472efbc")
-		(at 164.365 42.255 180)
+		(at 147.145 42.225 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R24"
@@ -17437,7 +17437,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "517d441f-7e67-4c81-a827-67d634941a12")
-		(at 166.265 42.255 180)
+		(at 149.045 42.225 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R23"
@@ -18196,7 +18196,7 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "534a8172-9c24-4a5d-906e-ff4ac1be4ba4")
-		(at 73.63 115.7 180)
+		(at 75.25 64 180)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C66"
@@ -18368,7 +18368,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "534e4032-ec76-40b1-9fa5-b6c218ea1e6b")
-		(at 149.155 134.825 -90)
+		(at 133.555 83.095 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C92"
@@ -19321,7 +19321,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "55ef3af8-d54b-4d28-9280-025a5e74a25e")
-		(at 66.05 133.9 -90)
+		(at 67.67 82.2 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C70"
@@ -19493,7 +19493,7 @@
 	(footprint "Diode_SMD:D_QFN_3.3x3.3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "55fa4637-4295-405d-ab8d-06490e7eb496")
-		(at 165.14 39.655 90)
+		(at 147.92 39.625 90)
 		(descr "QFN, diode, 3.3x3.3x1mm (https://www.wolfspeed.com/media/downloads/846/C3D1P7060Q.pdf)")
 		(tags "diode qfn 3.3")
 		(property "Reference" "Q11"
@@ -20044,7 +20044,7 @@
 	(footprint "Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm"
 		(layer "F.Cu")
 		(uuid "5651ec71-5693-40f1-80b3-9a9b3622a8e2")
-		(at 171.065 40.355)
+		(at 153.845 40.325)
 		(descr "Soldered wire connection, for a single 4 mm² wire, reinforced insulation, conductor diameter 3mm, outer diameter 6mm, size source Multi-Contact FLEXI-xV 2.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 		(tags "connector wire 4sqmm")
 		(property "Reference" "J7"
@@ -20370,7 +20370,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "5a8a4879-1ff0-4a60-aed3-a6017888b9ec")
-		(at 62.85 132.4 90)
+		(at 64.47 80.7 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C65"
@@ -20542,7 +20542,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "5b799cea-4501-412d-96ae-a0a4883aa0ab")
-		(at 150.955 126.325 -90)
+		(at 135.355 74.595 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R54"
@@ -21058,7 +21058,7 @@
 	(footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 		(layer "F.Cu")
 		(uuid "5cfe1771-c5b2-47f3-ac58-49a783edf6ec")
-		(at 139.6 39 180)
+		(at 122.38 38.97 180)
 		(descr "SMD3225/4, Crystal, 3.2x2.5mm package, SMD, http://www.txccrystal.com/images/pdf/7m-accuracy.pdf")
 		(property "Reference" "Y2"
 			(at 0 -2.45 0)
@@ -21556,7 +21556,7 @@
 	(footprint "Capacitor_SMD:C_Elec_10x10.2"
 		(layer "F.Cu")
 		(uuid "5de976fd-0724-4fbb-b668-e3c8e6965f20")
-		(at 54.83 114.5 -90)
+		(at 56.45 62.8 -90)
 		(descr "SMD capacitor, aluminum electrolytic nonpolar, 10.0x10.2mm")
 		(tags "capacitor electrolytic nonpolar")
 		(property "Reference" "C64"
@@ -21977,7 +21977,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "5ff0da11-db00-4db8-adbb-4dff23b974b9")
-		(at 133.89 134.55)
+		(at 118.29 82.82)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R45"
@@ -22136,7 +22136,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "6055f971-e587-44d4-ae38-a4efcf162523")
-		(at 67.95 125.3 -90)
+		(at 69.57 73.6 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R41"
@@ -22480,7 +22480,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-5"
 		(layer "F.Cu")
 		(uuid "625907e8-bf23-43df-bdee-9d19934d8ea8")
-		(at 47.75 130.4375 90)
+		(at 49.37 78.7375 90)
 		(descr "SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U8"
@@ -22895,7 +22895,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "643d6709-ad1e-44ed-9478-4ad084e4ce69")
-		(at 155.3 37.6 90)
+		(at 138.08 37.57 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R29"
@@ -23067,7 +23067,7 @@
 	(footprint "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
 		(layer "F.Cu")
 		(uuid "672e8f79-0e18-4c17-a0a4-6cc69712d6eb")
-		(at 59 128.55)
+		(at 60.62 76.85)
 		(descr "QFN, 32 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_32_05-08-1693.pdf)")
 		(tags "QFN NoLead")
 		(property "Reference" "U9"
@@ -23879,7 +23879,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "6843d88a-77fb-4ac6-9e64-c0206b1f1fe5")
-		(at 52.3 128.7 180)
+		(at 53.92 77 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C62"
@@ -24051,7 +24051,7 @@
 	(footprint "Diode_SMD:D_SMA"
 		(layer "F.Cu")
 		(uuid "68ff20c3-ac81-4ee0-9289-77936e73835d")
-		(at 127.8925 123.6 180)
+		(at 112.2925 71.87 180)
 		(descr "Diode SMA (DO-214AC)")
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "D21"
@@ -24332,7 +24332,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "690632d1-82f3-4a3b-a5d0-ba8734761528")
-		(at 137.1 46.2)
+		(at 119.88 46.17)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R20"
@@ -24663,7 +24663,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-323_SC-70"
 		(layer "F.Cu")
 		(uuid "6b315b7b-ed87-4f20-b590-9755c75981dc")
-		(at 57.5 134 -90)
+		(at 59.12 82.3 -90)
 		(descr "SOT, 3 Pin (https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf#page=148)")
 		(tags "SOT TO_SOT_SMD SC-70 SOT-323")
 		(property "Reference" "D9"
@@ -25195,7 +25195,7 @@
 	(footprint "Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm"
 		(layer "F.Cu")
 		(uuid "6e288db2-884b-43e8-a7ee-cc1d7b119ee5")
-		(at 167.5925 121.95)
+		(at 151.9925 70.22)
 		(descr "Soldered wire connection, for a single 4 mm² wire, reinforced insulation, conductor diameter 3mm, outer diameter 6mm, size source Multi-Contact FLEXI-xV 2.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 		(tags "connector wire 4sqmm")
 		(property "Reference" "J12"
@@ -25327,7 +25327,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "6e970092-5a64-43c9-9c8a-89c871253121")
-		(at 77.8925 122.2 180)
+		(at 79.5125 70.5 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R35"
@@ -25671,7 +25671,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "6ff284a9-2b65-421a-9634-95de5eae88be")
-		(at 121.02 31.03)
+		(at 103.8 31)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP5"
@@ -25793,7 +25793,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "700f5cc7-d065-456f-a826-0582f2b163ed")
-		(at 145.955 133.645 90)
+		(at 130.355 81.915 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C87"
@@ -25965,7 +25965,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "70b09156-4f48-45ba-a8cc-a0b2c0c27642")
-		(at 54.6 128.9 180)
+		(at 56.22 77.2 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C60"
@@ -26309,7 +26309,7 @@
 	(footprint "Diode_SMD:D_QFN_3.3x3.3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "7137ca2e-33ea-4bfb-b24e-efd0b46c6945")
-		(at 157.5925 135.775)
+		(at 141.9925 84.045)
 		(descr "QFN, diode, 3.3x3.3x1mm (https://www.wolfspeed.com/media/downloads/846/C3D1P7060Q.pdf)")
 		(tags "diode qfn 3.3")
 		(property "Reference" "Q26"
@@ -26860,7 +26860,7 @@
 	(footprint "Diode_SMD:D_QFN_3.3x3.3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "7179fd3c-b8d4-4761-90df-f08040cb5968")
-		(at 161.7425 135.4 90)
+		(at 146.1425 83.67 90)
 		(descr "QFN, diode, 3.3x3.3x1mm (https://www.wolfspeed.com/media/downloads/846/C3D1P7060Q.pdf)")
 		(tags "diode qfn 3.3")
 		(property "Reference" "Q27"
@@ -27239,7 +27239,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "71847d1b-d3ad-4f85-9fed-88bccd3ff142")
-		(at 147.455 127.225 180)
+		(at 131.855 75.495 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C95"
@@ -27411,7 +27411,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "72a753a6-5b29-4b0a-a5f3-a31584a3291c")
-		(at 61.6 132.4 -90)
+		(at 63.22 80.7 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C57"
@@ -27886,7 +27886,7 @@
 	(footprint "Diode_SMD:D_SMA"
 		(layer "F.Cu")
 		(uuid "736fab0b-b39c-4428-9c39-ca312867b0d9")
-		(at 44.78 121.7 180)
+		(at 46.4 70 180)
 		(descr "Diode SMA (DO-214AC)")
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "D16"
@@ -28167,7 +28167,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "74a1ba4d-7835-461a-bc55-5e66783d111e")
-		(at 164.255 35.355 180)
+		(at 147.035 35.325 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R22"
@@ -28620,7 +28620,7 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "7693a435-8aa4-4593-b09e-ca659dd80509")
-		(at 78.33 115.7)
+		(at 79.95 64)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C74"
@@ -29153,7 +29153,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-323_SC-70"
 		(layer "F.Cu")
 		(uuid "7860d46d-6835-42bd-8cfa-f96671607443")
-		(at 138.48 135.45 -90)
+		(at 122.88 83.72 -90)
 		(descr "SOT, 3 Pin (https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf#page=148)")
 		(tags "SOT TO_SOT_SMD SC-70 SOT-323")
 		(property "Reference" "D25"
@@ -29685,7 +29685,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "795cf986-7830-40d7-bdd9-e53fa9eb395d")
-		(at 147.455 126.225)
+		(at 131.855 74.495)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R56"
@@ -29857,7 +29857,7 @@
 	(footprint "Diode_SMD:D_QFN_3.3x3.3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "7e93346c-008c-4bc9-b558-313ec57817e3")
-		(at 78.6925 126.7 90)
+		(at 80.3125 75 90)
 		(descr "QFN, diode, 3.3x3.3x1mm (https://www.wolfspeed.com/media/downloads/846/C3D1P7060Q.pdf)")
 		(tags "diode qfn 3.3")
 		(property "Reference" "Q18"
@@ -30236,7 +30236,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "80523075-e85a-4c8c-94ad-f0f916958395")
-		(at 50.51 132.1)
+		(at 52.13 80.4)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R31"
@@ -30395,7 +30395,7 @@
 	(footprint "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
 		(layer "F.Cu")
 		(uuid "821bbd6e-a404-4cfc-921a-918b81ad9bc0")
-		(at 145.65 40.85)
+		(at 128.43 40.82)
 		(descr "QFN, 32 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_32_05-08-1693.pdf)")
 		(tags "QFN NoLead")
 		(property "Reference" "U6"
@@ -31207,7 +31207,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "8256b759-54db-42fe-94c8-75351c0f4ef3")
-		(at 150.9 45.1 180)
+		(at 133.68 45.07 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C46"
@@ -31379,7 +31379,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "82686df5-a6fd-4d96-9bdf-b664ca3538a8")
-		(at 139.8675 125.8 90)
+		(at 124.2675 74.07 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C78"
@@ -31551,7 +31551,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "847abf7f-da72-4d50-bb44-60cdfec88464")
-		(at 50.5 134.1)
+		(at 52.12 82.4)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R33"
@@ -32264,7 +32264,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "863c0f63-fd50-469a-bb35-a3a6141ec005")
-		(at 64.35 126.2 180)
+		(at 65.97 74.5 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C73"
@@ -32436,7 +32436,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "894472e9-91f9-48ee-be6b-409a464bacf0")
-		(at 48.88 120.89 -90)
+		(at 50.5 69.19 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R40"
@@ -32608,7 +32608,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-323_SC-70"
 		(layer "F.Cu")
 		(uuid "89d6f402-6ac3-4db1-adae-a5129c6be219")
-		(at 141.7 46.1125 -90)
+		(at 124.48 46.0825 -90)
 		(descr "SOT, 3 Pin (https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf#page=148)")
 		(tags "SOT TO_SOT_SMD SC-70 SOT-323")
 		(property "Reference" "D23"
@@ -32968,7 +32968,7 @@
 	(footprint "Diode_SMD:D_QFN_3.3x3.3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "89e8b7fb-c224-4104-b439-dd02c8ac5757")
-		(at 74.4925 133.975)
+		(at 76.1125 82.275)
 		(descr "QFN, diode, 3.3x3.3x1mm (https://www.wolfspeed.com/media/downloads/846/C3D1P7060Q.pdf)")
 		(tags "diode qfn 3.3")
 		(property "Reference" "Q19"
@@ -33347,7 +33347,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "8b973776-048f-43c0-8c68-9847f33a7446")
-		(at 118.8 124.1)
+		(at 103.2 72.37)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP14"
@@ -33469,7 +33469,7 @@
 	(footprint "Package_SO:PowerPAK_SO-8L_Single"
 		(layer "F.Cu")
 		(uuid "8ccb4d23-8ce6-410a-8d4d-888488fd89d0")
-		(at 45.4325 116.495 180)
+		(at 47.0525 64.795 180)
 		(descr "PowerPAK SO-8L Single (https://www.vishay.com/docs/64721/an913.pdf)")
 		(tags "PowerPAK SO-8L_Single")
 		(property "Reference" "Q21"
@@ -33812,7 +33812,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "8cd6411f-a9ae-4fbe-8f19-0da87521dd93")
-		(at 154.3 37.21 90)
+		(at 137.08 37.18 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R28"
@@ -33984,7 +33984,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "91aca139-ca89-45d9-bcb0-5f65e1dff79c")
-		(at 137.78 131.4 180)
+		(at 122.18 79.67 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C81"
@@ -34156,7 +34156,7 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "91e793a7-3a9b-4601-927b-ff1a4c25ce24")
-		(at 160.19 22.255 180)
+		(at 142.97 22.225 180)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C44"
@@ -34328,7 +34328,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "9267a5cb-3b30-4162-b35e-035405102070")
-		(at 151.955 126.735 -90)
+		(at 136.355 75.005 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R55"
@@ -34631,7 +34631,7 @@
 	(footprint "Diode_SMD:D_QFN_3.3x3.3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "94326916-3064-4c0c-bd8d-234c2b7251b0")
-		(at 157.4925 128.675)
+		(at 141.8925 76.945)
 		(descr "QFN, diode, 3.3x3.3x1mm (https://www.wolfspeed.com/media/downloads/846/C3D1P7060Q.pdf)")
 		(tags "diode qfn 3.3")
 		(property "Reference" "Q24"
@@ -35010,7 +35010,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "957965f6-df9c-4893-aae0-c3e47595a8a2")
-		(at 54.6 129.9 180)
+		(at 56.22 78.2 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C59"
@@ -35182,7 +35182,7 @@
 	(footprint "Package_SO:PowerPAK_SO-8L_Single"
 		(layer "F.Cu")
 		(uuid "96006442-5156-4794-8a99-f6f1a728a3e3")
-		(at 128.6 118.365 180)
+		(at 113 66.635 180)
 		(descr "PowerPAK SO-8L Single (https://www.vishay.com/docs/64721/an913.pdf)")
 		(tags "PowerPAK SO-8L_Single")
 		(property "Reference" "Q28"
@@ -35697,7 +35697,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "97d2b87a-ffbb-4795-8a17-e77a105f9a53")
-		(at 77.8925 136.3 180)
+		(at 79.5125 84.6 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R39"
@@ -35869,7 +35869,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "98d7e76b-b852-4e77-bdf6-124b100e7928")
-		(at 136.08 133.45)
+		(at 120.48 81.72)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C76"
@@ -36041,7 +36041,7 @@
 	(footprint "Capacitor_SMD:C_Elec_10x10.2"
 		(layer "F.Cu")
 		(uuid "9931ea84-40d6-4b8d-b236-0120f796b3b5")
-		(at 65.68 114.5 -90)
+		(at 67.3 62.8 -90)
 		(descr "SMD capacitor, aluminum electrolytic nonpolar, 10.0x10.2mm")
 		(tags "capacitor electrolytic nonpolar")
 		(property "Reference" "C63"
@@ -36462,7 +36462,7 @@
 	(footprint "Diode_SMD:D_QFN_3.3x3.3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "9abc4a6b-5fe4-40c0-8fe2-7affa3c24700")
-		(at 165.165 32.755 90)
+		(at 147.945 32.725 90)
 		(descr "QFN, diode, 3.3x3.3x1mm (https://www.wolfspeed.com/media/downloads/846/C3D1P7060Q.pdf)")
 		(tags "diode qfn 3.3")
 		(property "Reference" "Q9"
@@ -36841,7 +36841,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "9b13e2ec-6ec7-4781-b6f2-7929f42b3bb6")
-		(at 121.02 39.13)
+		(at 103.8 39.1)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP7"
@@ -36963,7 +36963,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "9b88acad-b1d7-460c-8d00-363ea4c955b3")
-		(at 139.25 44.0875)
+		(at 122.03 44.0575)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C32"
@@ -37135,7 +37135,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "9c4f081d-1531-43f6-914d-e42e13fb0b8a")
-		(at 149.3 43.975 90)
+		(at 132.08 43.945 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C43"
@@ -37307,7 +37307,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "9ce485f7-9b13-4d62-8b11-189f3e6bba75")
-		(at 160.8925 124 180)
+		(at 145.2925 72.27 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R48"
@@ -37479,7 +37479,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "9e4b9873-1149-453f-ac3f-64cc39b6c3a4")
-		(at 121.02 35.08)
+		(at 103.8 35.05)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP6"
@@ -37773,7 +37773,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "9eb575a9-b4c8-490a-85b0-bdf365098333")
-		(at 160.8925 131 180)
+		(at 145.2925 79.27 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R50"
@@ -37945,7 +37945,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "9f512257-1c5c-4639-9902-4cbfc17eace5")
-		(at 138.8675 126.8 90)
+		(at 123.2675 75.07 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C80"
@@ -38248,7 +38248,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "a0729577-94cf-47b8-ac86-1d385a2007f8")
-		(at 55.6 125.42 90)
+		(at 57.22 73.72 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C58"
@@ -38902,7 +38902,7 @@
 	(footprint "Capacitor_SMD:C_Elec_10x10.2"
 		(layer "F.Cu")
 		(uuid "a3b0e521-84c6-4352-8ab4-a36ab5063e63")
-		(at 137.9425 116.3 -90)
+		(at 122.3425 64.57 -90)
 		(descr "SMD capacitor, aluminum electrolytic nonpolar, 10.0x10.2mm")
 		(tags "capacitor electrolytic nonpolar")
 		(property "Reference" "C86"
@@ -39323,7 +39323,7 @@
 	(footprint "Diode_SMD:D_SMA"
 		(layer "F.Cu")
 		(uuid "a4292e6c-00df-4427-9a60-562c69ef27ca")
-		(at 131.32 34.83 180)
+		(at 114.1 34.8 180)
 		(descr "Diode SMA (DO-214AC)")
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "D11"
@@ -39604,7 +39604,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "a5cb9fda-f3e9-4e9e-bbcb-856f1fff4d8f")
-		(at 162.7825 124.01 180)
+		(at 147.1825 72.28 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R47"
@@ -39776,7 +39776,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "a5d4691a-b438-4310-84ff-f59b2c36a18a")
-		(at 64.25 125.2)
+		(at 65.87 73.5)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R43"
@@ -40229,7 +40229,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "a703de3e-0f4f-47cd-bfbc-09e47a716735")
-		(at 50.51 133.1)
+		(at 52.13 81.4)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R32"
@@ -40920,7 +40920,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ab09fce2-e9ec-4810-b194-e7965220fd38")
-		(at 162.9025 138 180)
+		(at 147.3025 86.27 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R51"
@@ -41214,7 +41214,7 @@
 	(footprint "Package_SO:PowerPAK_SO-8L_Single"
 		(layer "F.Cu")
 		(uuid "ac727807-5b47-4e61-93f3-8129739b59c4")
-		(at 132.02 29.5575 180)
+		(at 114.8 29.5275 180)
 		(descr "PowerPAK SO-8L Single (https://www.vishay.com/docs/64721/an913.pdf)")
 		(tags "PowerPAK SO-8L_Single")
 		(property "Reference" "Q14"
@@ -41575,7 +41575,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ac7f64ff-7fbe-47e4-a629-37c0dd9ffc39")
-		(at 164.265 49.355 180)
+		(at 147.045 49.325 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R26"
@@ -41747,7 +41747,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ad036eee-5789-43df-be77-8bf25c96dce5")
-		(at 47.25 127.8375)
+		(at 48.87 76.1375)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C55"
@@ -41919,7 +41919,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ad65a231-6173-411c-9000-e31f6e2262c3")
-		(at 137.78 130.4 180)
+		(at 122.18 78.67 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C82"
@@ -42091,7 +42091,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "ae3303df-c98d-4280-8ea2-beb509503e23")
-		(at 143.2 36.7 90)
+		(at 125.98 36.67 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C34"
@@ -42263,7 +42263,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "aecfce67-ac74-4747-a459-3d2500d27660")
-		(at 135.42 34.02 -90)
+		(at 118.2 33.99 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R27"
@@ -42435,7 +42435,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-323_SC-70"
 		(layer "F.Cu")
 		(uuid "b01357cc-fb94-454d-b7b3-79cb5498a82f")
-		(at 55.1 134 -90)
+		(at 56.72 82.3 -90)
 		(descr "SOT, 3 Pin (https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf#page=148)")
 		(tags "SOT TO_SOT_SMD SC-70 SOT-323")
 		(property "Reference" "D24"
@@ -43311,7 +43311,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "b15213aa-0346-43a6-b038-2d54ef6aa7a4")
-		(at 136.3 125.7 180)
+		(at 120.7 73.97 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C84"
@@ -44809,7 +44809,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "b748d53c-c756-44ed-94f6-687d171b9a7d")
-		(at 142.2 37.72 90)
+		(at 124.98 37.69 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C36"
@@ -45153,7 +45153,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "b7f947e6-5050-4d21-abb6-cd8d6e1b62a0")
-		(at 118.8 120.05)
+		(at 103.2 68.32)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP13"
@@ -45619,7 +45619,7 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "bc2e3b0e-51a7-42c8-b867-7ab677f27e3d")
-		(at 161.3875 117.6)
+		(at 145.7875 65.87)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C96"
@@ -45791,7 +45791,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "be5fe986-54b0-4662-a65f-d4634846d29c")
-		(at 162.7925 131.01 180)
+		(at 147.1925 79.28 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R49"
@@ -46135,7 +46135,7 @@
 	(footprint "Diode_SMD:D_QFN_3.3x3.3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "bf48bd99-6f93-4250-91b0-8e3476472039")
-		(at 161.7675 121.4 90)
+		(at 146.1675 69.67 90)
 		(descr "QFN, diode, 3.3x3.3x1mm (https://www.wolfspeed.com/media/downloads/846/C3D1P7060Q.pdf)")
 		(tags "diode qfn 3.3")
 		(property "Reference" "Q23"
@@ -46514,7 +46514,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "c39f39c8-b75e-47f3-b025-440b42f0c9e3")
-		(at 135.68 130.3 180)
+		(at 120.08 78.57 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C83"
@@ -46858,7 +46858,7 @@
 	(footprint "Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm"
 		(layer "F.Cu")
 		(uuid "c5d322fd-7bc1-46ac-bf40-02bbc047bb35")
-		(at 84.5925 120.25)
+		(at 86.2125 68.55)
 		(descr "Soldered wire connection, for a single 4 mm² wire, reinforced insulation, conductor diameter 3mm, outer diameter 6mm, size source Multi-Contact FLEXI-xV 2.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 		(tags "connector wire 4sqmm")
 		(property "Reference" "J9"
@@ -46990,7 +46990,7 @@
 	(footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 		(layer "F.Cu")
 		(uuid "c6f554e5-b03a-47a1-848a-6df3a7b24400")
-		(at 136.18 127.95)
+		(at 120.58 76.22)
 		(descr "SMD3225/4, Crystal, 3.2x2.5mm package, SMD, http://www.txccrystal.com/images/pdf/7m-accuracy.pdf")
 		(property "Reference" "Y4"
 			(at 0 -2.45 0)
@@ -47184,7 +47184,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "c75dd9dc-8bee-4e0a-bc90-d303970e30da")
-		(at 160.9925 138 180)
+		(at 145.3925 86.27 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R52"
@@ -47356,7 +47356,7 @@
 	(footprint "Diode_SMD:D_QFN_3.3x3.3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "caef2a0e-b3e3-45de-bbef-bba37d9876ec")
-		(at 160.965 46.73)
+		(at 143.745 46.7)
 		(descr "QFN, diode, 3.3x3.3x1mm (https://www.wolfspeed.com/media/downloads/846/C3D1P7060Q.pdf)")
 		(tags "diode qfn 3.3")
 		(property "Reference" "Q12"
@@ -48095,7 +48095,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-323_SC-70"
 		(layer "F.Cu")
 		(uuid "cba74c1e-dd50-4fbd-bca8-e41a6a86ec12")
-		(at 136.08 135.45 -90)
+		(at 120.48 83.72 -90)
 		(descr "SOT, 3 Pin (https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf#page=148)")
 		(tags "SOT TO_SOT_SMD SC-70 SOT-323")
 		(property "Reference" "D19"
@@ -48455,7 +48455,7 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "cc637751-5312-4e30-8f98-b491672399dc")
-		(at 160.19 25.555 180)
+		(at 142.97 25.525 180)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C45"
@@ -48627,7 +48627,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "cc8f3a7c-ffa1-4608-ab8e-cd2efdc7f460")
-		(at 32.535 124.25)
+		(at 34.155 72.55)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP11"
@@ -48749,7 +48749,7 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "ccab23cd-95a2-422a-8098-70f76dc9d146")
-		(at 78.355 109.1)
+		(at 79.975 57.4)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C71"
@@ -49435,7 +49435,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "cd55ed0d-226e-4ec1-ac56-4d37eb90e25b")
-		(at 79.8025 136.3 180)
+		(at 81.4225 84.6 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R38"
@@ -49607,7 +49607,7 @@
 	(footprint "Diode_SMD:D_QFN_3.3x3.3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "d02d1515-3b08-4687-aab5-fe13deffedc7")
-		(at 165.14 46.755 90)
+		(at 147.92 46.725 90)
 		(descr "QFN, diode, 3.3x3.3x1mm (https://www.wolfspeed.com/media/downloads/846/C3D1P7060Q.pdf)")
 		(tags "diode qfn 3.3")
 		(property "Reference" "Q13"
@@ -50754,7 +50754,7 @@
 	(footprint "Diode_SMD:D_QFN_3.3x3.3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "d3a07563-6d4b-4822-b878-648426ad8bc4")
-		(at 161.6675 128.4 90)
+		(at 146.0675 76.67 90)
 		(descr "QFN, diode, 3.3x3.3x1mm (https://www.wolfspeed.com/media/downloads/846/C3D1P7060Q.pdf)")
 		(tags "diode qfn 3.3")
 		(property "Reference" "Q25"
@@ -51133,7 +51133,7 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "d3df530b-6ea3-442d-bba8-7c4ef5c75239")
-		(at 156.6925 117.6 180)
+		(at 141.0925 65.87 180)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C88"
@@ -51305,7 +51305,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d62736bc-5094-495d-8079-793543e19c15")
-		(at 166.265 49.355)
+		(at 149.045 49.325)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R25"
@@ -51477,7 +51477,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d6bd30ea-23c0-4819-ad7e-f1a7be688864")
-		(at 130.48 135.4)
+		(at 114.88 83.67)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C75"
@@ -51808,7 +51808,7 @@
 	(footprint "Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm"
 		(layer "F.Cu")
 		(uuid "d8ca119c-706d-45bc-b2e5-fa8d942e8179")
-		(at 84.5925 134.3)
+		(at 86.2125 82.6)
 		(descr "Soldered wire connection, for a single 4 mm² wire, reinforced insulation, conductor diameter 3mm, outer diameter 6mm, size source Multi-Contact FLEXI-xV 2.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 		(tags "connector wire 4sqmm")
 		(property "Reference" "J11"
@@ -51940,7 +51940,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-323_SC-70"
 		(layer "F.Cu")
 		(uuid "d9afd7d0-d4df-4b3b-b06b-654bd781718d")
-		(at 143.27 135.45 -90)
+		(at 127.67 83.72 -90)
 		(descr "SOT, 3 Pin (https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf#page=148)")
 		(tags "SOT TO_SOT_SMD SC-70 SOT-323")
 		(property "Reference" "D14"
@@ -52300,7 +52300,7 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "d9c98cbe-6fa3-495c-a90c-29964133b571")
-		(at 78.355 112.4)
+		(at 79.975 60.7)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C72"
@@ -52644,7 +52644,7 @@
 	(footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 		(layer "F.Cu")
 		(uuid "dbbf3cc1-9cec-4089-b8db-c8463a08de1f")
-		(at 52.8 126.4 180)
+		(at 54.42 74.7 180)
 		(descr "SMD3225/4, Crystal, 3.2x2.5mm package, SMD, http://www.txccrystal.com/images/pdf/7m-accuracy.pdf")
 		(property "Reference" "Y3"
 			(at 0 -2.45 0)
@@ -52838,7 +52838,7 @@
 	(footprint "Diode_SMD:D_QFN_3.3x3.3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "dcd2c1d3-a4fb-43cc-94c4-b7ec0786aac5")
-		(at 157.6375 121.6)
+		(at 142.0375 69.87)
 		(descr "QFN, diode, 3.3x3.3x1mm (https://www.wolfspeed.com/media/downloads/846/C3D1P7060Q.pdf)")
 		(tags "diode qfn 3.3")
 		(property "Reference" "Q22"
@@ -53217,7 +53217,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "dd25c202-1038-4566-808c-b04e1024696e")
-		(at 166.255 35.355 180)
+		(at 149.035 35.325 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R21"
@@ -53389,7 +53389,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "de637b8c-4652-4a3d-88ad-94a99b139dc3")
-		(at 140.8 41.33 180)
+		(at 123.58 41.3 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C38"
@@ -53864,7 +53864,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "e1dfb448-42ce-41fb-933a-c63aaae310c4")
-		(at 121.02 43.18)
+		(at 103.8 43.15)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP8"
@@ -53986,7 +53986,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-323_SC-70"
 		(layer "F.Cu")
 		(uuid "e2103508-e7f2-420c-935f-7c63070474f3")
-		(at 146.5 46.1125 -90)
+		(at 129.28 46.0825 -90)
 		(descr "SOT, 3 Pin (https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf#page=148)")
 		(tags "SOT TO_SOT_SMD SC-70 SOT-323")
 		(property "Reference" "D12"
@@ -54346,7 +54346,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "e2820d53-881e-4cb9-87f2-defc420391fc")
-		(at 138.9 41.3 180)
+		(at 121.68 41.27 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C40"
@@ -54518,7 +54518,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "e2bd5963-af74-4044-a9a7-cea5df80b740")
-		(at 118.8 128.15)
+		(at 103.2 76.42)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP15"
@@ -55233,7 +55233,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "eb409819-9d54-460d-afcf-ae98eb8e34a7")
-		(at 47.25 133.0375)
+		(at 48.87 81.3375)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C53"
@@ -55577,7 +55577,7 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "f1276ed1-bce8-46b8-b12f-7e13bb4c4125")
-		(at 156.6925 111 180)
+		(at 141.0925 59.27 180)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C91"
@@ -55749,7 +55749,7 @@
 	(footprint "Capacitor_SMD:C_Elec_10x10.2"
 		(layer "F.Cu")
 		(uuid "f1d435f4-2ee8-461c-8e4e-391e5cbbbeae")
-		(at 141.42 27.53 -90)
+		(at 124.2 27.5 -90)
 		(descr "SMD capacitor, aluminum electrolytic nonpolar, 10.0x10.2mm")
 		(tags "capacitor electrolytic nonpolar")
 		(property "Reference" "C41"
@@ -56170,7 +56170,7 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "f1e7cce3-0394-4d48-b762-eef163d03056")
-		(at 164.865 28.855)
+		(at 147.645 28.825)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C52"
@@ -56514,7 +56514,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "f2b59747-63a1-45dd-95a1-d4dc6d41ff17")
-		(at 64.55 133.6 180)
+		(at 66.17 81.9 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C68"
@@ -56686,7 +56686,7 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "f32977d8-e092-4c67-9f38-3a829a0c31bb")
-		(at 73.63 112.4 180)
+		(at 75.25 60.7 180)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C67"
@@ -57030,7 +57030,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "f49ce120-7053-4839-98ff-b0a003118386")
-		(at 144.88 133.68 -90)
+		(at 129.28 81.95 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C79"
@@ -57202,7 +57202,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "f5f8d30a-1f94-4360-919d-6860798158fb")
-		(at 137.1 45.2)
+		(at 119.88 45.17)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R19"
@@ -57361,7 +57361,7 @@
 	(footprint "Connector_Wire:SolderWire-4sqmm_1x01_D3mm_OD6mm"
 		(layer "F.Cu")
 		(uuid "f6504b7f-fb61-45bb-b78a-a49a7be229d3")
-		(at 167.5925 129)
+		(at 151.9925 77.27)
 		(descr "Soldered wire connection, for a single 4 mm² wire, reinforced insulation, conductor diameter 3mm, outer diameter 6mm, size source Multi-Contact FLEXI-xV 2.5 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 		(tags "connector wire 4sqmm")
 		(property "Reference" "J13"
@@ -57493,7 +57493,7 @@
 	(footprint "Diode_SMD:D_QFN_3.3x3.3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "f8931432-c6a2-4021-8ed3-15bfdc77d751")
-		(at 74.4925 119.875)
+		(at 76.1125 68.175)
 		(descr "QFN, diode, 3.3x3.3x1mm (https://www.wolfspeed.com/media/downloads/846/C3D1P7060Q.pdf)")
 		(tags "diode qfn 3.3")
 		(property "Reference" "Q15"
@@ -57872,7 +57872,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "f91502d7-e637-40a2-8a0f-56e82699c27c")
-		(at 137.09 44.2)
+		(at 119.87 44.17)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R18"
@@ -58031,7 +58031,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "f93319b0-3843-4b5b-9c80-8353c13b2cd9")
-		(at 32.535 128.3)
+		(at 34.155 76.6)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP12"
@@ -58325,7 +58325,7 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "fd37f6a4-78e6-44ed-abff-d674f25e136c")
-		(at 73.655 109.1 180)
+		(at 75.275 57.4 180)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C69"
@@ -58669,7 +58669,7 @@
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
 		(uuid "fee1ae7a-854f-4eed-bbc6-655a13d722aa")
-		(at 164.865 25.555)
+		(at 147.645 25.525)
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C50"
@@ -58841,7 +58841,7 @@
 	(footprint "Diode_SMD:D_QFN_3.3x3.3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "ff91963b-56c2-4b3b-a4bc-5d4651310f59")
-		(at 160.965 32.73)
+		(at 143.745 32.7)
 		(descr "QFN, diode, 3.3x3.3x1mm (https://www.wolfspeed.com/media/downloads/846/C3D1P7060Q.pdf)")
 		(tags "diode qfn 3.3")
 		(property "Reference" "Q8"

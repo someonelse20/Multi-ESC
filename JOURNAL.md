@@ -124,3 +124,10 @@ I routed one of the drivers. I started with mcu and gate driver which was pretty
 
 **Total time spent: 2 hours**
 
+# October 27: Finished driver layout
+
+I don't have much to say here either, I just took some time to copy the layout of the other drivers.
+
+![Full driver layout](images/driver_layout-3.png)
+
+**Total time spent: 2 hours**
