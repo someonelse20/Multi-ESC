@@ -13076,6 +13076,12 @@
 		(path "/2d52fef5-5f6d-4a4b-a882-d93d740f26e9/83870e73-b0bb-4aed-8417-4690afeb319b")
 		(sheetname "/BLDC Driver1/")
 		(sheetfile "bldc_driver.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13348,6 +13354,9 @@
 			(at 1.4 0.325)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/BLDC Driver1/SHB")
+			(pinfunction "S_3")
+			(pintype "passive")
 			(zone_connect 2)
 			(options
 				(clearance outline)
@@ -19723,6 +19732,12 @@
 		(path "/2d52fef5-5f6d-4a4b-a882-d93d740f26e9/658d3abf-79b0-4b60-81ab-da6e7dcfb418")
 		(sheetname "/BLDC Driver1/")
 		(sheetfile "bldc_driver.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19995,6 +20010,9 @@
 			(at 1.4 0.325 90)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "S_3")
+			(pintype "passive")
 			(zone_connect 2)
 			(options
 				(clearance outline)
@@ -36713,6 +36731,12 @@
 		(path "/2d52fef5-5f6d-4a4b-a882-d93d740f26e9/62a94bd9-13aa-45c5-81b0-a2f31b5cc80e")
 		(sheetname "/BLDC Driver1/")
 		(sheetfile "bldc_driver.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36985,6 +37009,9 @@
 			(at 1.4 0.325 90)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "S_3")
+			(pintype "passive")
 			(zone_connect 2)
 			(options
 				(clearance outline)
@@ -59349,6 +59376,12 @@
 		(path "/2d52fef5-5f6d-4a4b-a882-d93d740f26e9/0dd5593f-95f7-4867-a2c3-ba246e4f9abe")
 		(sheetname "/BLDC Driver1/")
 		(sheetfile "bldc_driver.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -59612,15 +59645,18 @@
 			(at 1.4 -0.975)
 			(size 0.8 0.44)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/BLDC Driver1/GHA")
+			(pinfunction "G_2")
+			(pintype "input")
 			(uuid "d16987bb-afea-4623-975f-40914650c47e")
 		)
 		(pad "3" smd custom
 			(at 1.4 0.325)
 			(size 0.4 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/BLDC Driver1/GHA")
-			(pinfunction "G_2")
-			(pintype "input")
+			(net "/BLDC Driver1/SHA")
+			(pinfunction "S_3")
+			(pintype "passive")
 			(zone_connect 2)
 			(options
 				(clearance outline)
