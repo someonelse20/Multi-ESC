@@ -131,3 +131,12 @@ I don't have much to say here either, I just took some time to copy the layout o
 ![Full driver layout](images/driver_layout-3.png)
 
 **Total time spent: 2 hours**
+
+# October 30: Routed drivers
+
+I routed the other three drivers. I kept it mostly the same but I'd like to think I made some imporvements. It just took some time especially since I had to edit all the mosfet footprints to make the copper fills to work.
+
+![Full driver layout](images/driver_pcb-2.png)
+
+**Total time spent: 4 hours**
+
