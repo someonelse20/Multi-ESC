@@ -134,7 +134,7 @@ I don't have much to say here either, I just took some time to copy the layout o
 
 # October 30: Routed drivers
 
-I routed the other three drivers. I kept it mostly the same but I'd like to think I made some imporvements. It just took some time especially since I had to edit all the mosfet footprints to make the copper fills to work.
+I routed the other three drivers. I kept it mostly the same but I'd like to think I made some improvements. It just took some time especially since I had to edit all the mosfet footprints to make the copper fills to work.
 
 ![Full driver layout](images/driver_pcb-2.png)
 
@@ -142,9 +142,17 @@ I routed the other three drivers. I kept it mostly the same but I'd like to thin
 
 # November 9: Finished routing
 
-I placed all the drivers in the corners and placed the other circuits in the middle. I started by making the caps for the regulators 0603 rather than 0402. I had to ajust their position too. I then routed up all the I2C and PWM lines to each of the drivers to the external headers. Then I added zone fills for the 3.3v regulator. I added vias for the 3.3v traces and routed it to each of the drivers. I then routed the boot button to each of the drivers. I then added a large copper fill for vbus and added vias to each of the drivers. To finish I added plenty of ground vias to all of the high power capacitors and mosfets.
+I placed all the drivers in the corners and placed the other circuits in the middle. I started by making the caps for the regulators 0603 rather than 0402. I had to adjust their position too. I then routed up all the I2C and PWM lines to each of the drivers to the external headers. Then I added zone fills for the 3.3v regulator. I added vias for the 3.3v traces and routed it to each of the drivers. I then routed the boot button to each of the drivers. I then added a large copper fill for vbus and added vias to each of the drivers. To finish I added plenty of ground vias to all of the high power capacitors and mosfets.
 
 ![Full PCB](images/pcb-1.png)
 
 **Total time spent: 4 hours**
+
+# November 10: Changed file structure and wrote firmware
+
+Alongside the change to my other forge project I changed the file structure to move the kicad files into hardware/. I generated the basic code with STM32CubeMX and copied my previous ESC firmware from [my other ESC project](https://github.com/someonelse20/ESC). I had to change the pinouts and I found a bug that it didn't properly read the input PWM so I fixed that too. Currently the firmware doesn't communicate with the gate driver over SPI which I don't really need to because it would only be to change the driver's settings and the defaults are fine. It also doesn't use the I2C connection but I will add that later. Here's a picture of the new file structure because pictures of code are boring.
+
+![File structure](images/file_structure.png)
+
+**Total time spent: 1.5 hours**
 
