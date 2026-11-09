@@ -507,6 +507,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -735,7 +736,7 @@
         "uuid": "332a84c1-656a-45ff-900c-4414e0318fba"
       }
     ],
-    "used_designators": "BOOT1,J1-18,R5-57,TP1-16,Y1-4,#PWR2,#PWR13-150,FB1,D1-29,C9-96,Q1-28,U1-13",
+    "used_designators": "#PWR2,#PWR13-150,BOOT1,C9-96,D1-29,FB1,J1-18,Q1-28,R5-57,TP1-16,U1-13,Y1-4",
     "variants": []
   },
   "sheets": [
