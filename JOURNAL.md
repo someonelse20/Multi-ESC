@@ -140,3 +140,11 @@ I routed the other three drivers. I kept it mostly the same but I'd like to thin
 
 **Total time spent: 4 hours**
 
+# November 9: Finished routing
+
+I placed all the drivers in the corners and placed the other circuits in the middle. I started by making the caps for the regulators 0603 rather than 0402. I had to ajust their position too. I then routed up all the I2C and PWM lines to each of the drivers to the external headers. Then I added zone fills for the 3.3v regulator. I added vias for the 3.3v traces and routed it to each of the drivers. I then routed the boot button to each of the drivers. I then added a large copper fill for vbus and added vias to each of the drivers. To finish I added plenty of ground vias to all of the high power capacitors and mosfets.
+
+![Full PCB](images/pcb-1.png)
+
+**Total time spent: 4 hours**
+
