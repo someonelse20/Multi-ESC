@@ -148,11 +148,19 @@ I placed all the drivers in the corners and placed the other circuits in the mid
 
 **Total time spent: 4 hours**
 
-# November 10: Changed file structure and wrote firmware
+# November 9: Changed file structure and wrote firmware
 
 Alongside the change to my other forge project I changed the file structure to move the kicad files into hardware/. I generated the basic code with STM32CubeMX and copied my previous ESC firmware from [my other ESC project](https://github.com/someonelse20/ESC). I had to change the pinouts and I found a bug that it didn't properly read the input PWM so I fixed that too. Currently the firmware doesn't communicate with the gate driver over SPI which I don't really need to because it would only be to change the driver's settings and the defaults are fine. It also doesn't use the I2C connection but I will add that later. Here's a picture of the new file structure because pictures of code are boring.
 
 ![File structure](images/file_structure.png)
 
 **Total time spent: 1.5 hours**
+
+# November 10: Got project ready to ship
+
+I'm about done with the hardware and firmware so I started to get it ready to ship. I started by editing the kicad BOM to add in the specific parts numbers. I changed the footprint for the 10uF capacitors for the 3.3v to be the same for the bulk capacitance of the drivers. This way I have a smaller part count and they are rated for a higher voltage. There still are a few smaller caps connected to the gate driver ic that are rated for 25v when I was shooting for 35v. This is still acceptable but I would have to change the footprint to get caps for a higher voltage. I still might do this later. I moved on and wrote up a readme. Now I think it's ready to go!
+
+![Readme](images/readme-1.png)
+
+**Total time spent: 2 hours**
 
