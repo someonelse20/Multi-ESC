@@ -14,5 +14,5 @@ A custom drone ESC to control four brushless motors at once. It also provides 3.
 ![PCB](images/pcb-final.png)
 
 ## BOM
-The BOM is located in BOM.csv and DigiKeyBOM.csv for ordering the parts from DikiKey. Alternatively the DigiKey BOM can be found [here](https://www.digikey.com/en/mylists/list/6IF22QFQMQ)
+The BOM is located in production/BOM.csv and production/DigiKeyBOM.csv for ordering the parts from DikiKey. Alternatively the DigiKey BOM can be found [here](https://www.digikey.com/en/mylists/list/6IF22QFQMQ)
 
